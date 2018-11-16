@@ -1,2 +1,5 @@
-# detmold-spaziergang
-Studentisches Projekt zur Erstellung einer Smartphone App "Detmold Spaziergang" (2018)
+# "Detmold Spaziergang" - eine App zur Musikgeschichte der Stadt Detmold
+
+Wie klingt Detmold? Unter dieser Fragestellung haben sich 11 Studierende mit Prof. Dr. Andreas Münzmay und Daniel Röwenstrunk mit der Musik in Detmold und ihrer Geschichte beschäftigt. Neben offensichtlichen Verbindungen der Stadt mit Musik – verkörpert etwa durch die Hochschule für Musik – wurden dabei auch versteckte Orte neu entdeckt. So erklingt beispielsweise auch beim Schlendern durch den Palaisgarten das Vogelgezwitscher, das Geplätscher der Wasserspiele, aber auch viel Musik durch die probenden Studierenden der Hochschule. Auch hinter den dicken Mauern des Fürstlichen Residenzschlosses erfreute man sich in früheren Jahrhunderten einer regen Musikpflege.
+
+Um diese Erkenntnisse einem medienaffinen Publikum zugänglich zu machen, wird eine eigens entwickelte App programmiert, mit der man sich selbst einen Eindruck von der Klangvielfalt Detmolds verschaffen kann. Bei einem geführten Spaziergang durch die Stadt werden den Nutzenden Informationen in Form von Texten, Bildern und Hörbeispielen zu ausgewählten Musikstätten präsentiert. Der klingende Spaziergang ist als Rundweg konzipiert, in den man an verschiedenen Punkten einsteigen kann. Außerdem kann zwischen mehreren Routen mit verschiedenen Längen gewählt werden, sodass jede/r Spaziergänger/in auf seine/ihre Kosten kommt.
