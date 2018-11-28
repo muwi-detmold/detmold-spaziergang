@@ -43,6 +43,29 @@ body {
     color: #245382;
 }
 
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:rgb(162,219,255);
+    background-image:url(../img/SchlossBackground.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;/* 170px x 200px */
+
+    background-attachment:fixed;
+    font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    color: #ffffff;
+}
+.color-blue {
+    color: #245382;
+}
+
 /* Portrait layout (default) */
 .app {
     position:absolute;             /* position in the center of the screen */
@@ -53,7 +76,25 @@ body {
     padding: 5px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:-225px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
-    
+
+}
+
+.blauerKasten {
+
+
+
+    width: auto;
+    height: 700px;
+
+    color: #ffffff;
+    background-color: rgba(36, 83, 130, 0.8);
+
+    background-size: cover;
+    border:  1px #245382;
+    border-radius: 1em 1em 1em 1em;
+    margin:  40px 40px 40px 40px;
+    padding: 5px 5px 5px 5px;
+
 }
 
 /* Landscape layout (with min-width) */
@@ -75,4 +116,12 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    font-size: 31px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
 
