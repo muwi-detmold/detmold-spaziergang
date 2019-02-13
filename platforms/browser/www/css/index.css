@@ -43,17 +43,171 @@ body {
     color: #245382;
 }
 
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:rgb(162,219,255);
+    background-image:url(../img/SchlossBackground.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;/* 170px x 200px */
+
+    background-attachment:fixed;
+    font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    color: #ffffff;
+}
+.color-blue {
+    color: #245382;
+}
+
 /* Portrait layout (default) */
 .app {
     position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:50%;
-    width:225px;                   /* text area width */
-    text-align:center;
-    padding: 5px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-225px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
-                                   /* offset horizontal: half of text area width */
-    
+    left:0;
+    top:0;
+    bottom: 0;
+    right: 0;
+}
+
+.logo {
+    height: 200px;
+}
+
+.routes {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Amaranth";
+    color: #245382;
+}
+
+.route {
+    border: 1px solid #245382;
+    border-radius: 4em;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.options {
+    width: 60%;
+    margin: 50px auto 0 auto;
+}
+
+.options div {
+    float: right;
+}
+
+.options img {
+    height: 70px;
+}
+
+.contentBox {
+
+    margin: 25px;
+    height: calc(100% - 50px);
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: rgba(36, 83, 130, 0.8);
+
+    border:  1px #245382;
+    border-radius: 1.5em;
+    padding: 0;
+
+    position: relative;
+}
+
+.navigation div {
+    float: left;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 80px;
+    text-align: center;
+}
+
+.nav img {
+    width: 26px;
+    margin: 20px auto;
+}
+
+.contentTitle {
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4em;
+    padding: 3px;
+    width: calc(100% - 160px);
+}
+
+.contentnavigation {
+    height: 60px;
+    padding: 10px 0;
+    text-align: center;
+    /*border: 1px solid crimson; */
+}
+
+.contentnavigation div {
+    width: 33.33%;
+    float: left;
+}
+
+.contentnavigation img {
+    height: 60px;
+}
+
+.contentfulltext {
+    padding: 0 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 16px;
+    font-family: "Roboto";
+    overflow-y: auto;
+}
+
+
+.contentfulltext p:first-child {
+    margin-top: 0;
+}
+
+.firstSentence {
+    font-family: Amaranth;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contentTitle h1 {
+    font-size: 31px;
+}
+
+.contentImg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#Kreis {
+    background-color: transparent;
+    position: fixed;
+    width: 56px;
+    height: 56px;
+    top: 30%;
+    left: 75%;
+    border: 2px solid #ffffff;
+    text-align: center;
+    border-radius: 50px;
+
+
+}
+
 }
 
 /* Landscape layout (with min-width) */
@@ -75,4 +229,12 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    font-size: 31px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
 
