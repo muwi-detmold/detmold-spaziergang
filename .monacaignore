@@ -6,5 +6,4 @@
 .vscode/
 typings/
 node_modules
-*.xml
-/.idea
+.git

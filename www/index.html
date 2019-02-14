@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com 'unsafe-inline' 'unsafe-eval' 'self'; script-src * 'unsafe-inline' 'unsafe-eval' blob:; img-src * 'self' data: blob:; child-src blob: ; connect-src https://*.tiles.mapbox.com https://api.mapbox.com"/>
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <script>
+      // Page init event
+    document.addEventListener('init', function(event) {
+      var page = event.target;
+
+      if (page.matches('#first-page')) {
+
+        page.querySelector('#tutti-button').onclick = function() {
+          document.querySelector('#navigator').pushPage('map.html');
+        };
+
+      } else if (page.matches('#map-page')) {
+
+        page.querySelector('#home-button').onclick = function() {
+          document.querySelector('#navigator').pushPage('start.html');
+        };
+
+        mapboxgl.accessToken = 'pk.eyJ1Ijoicm9ld2Vuc3RydW5rIiwiYSI6ImNqczRrYXF1aTAzMHg0YXBjMnY3YjhlZ2UifQ.66lXPOMIIaOYodE8TenWrg';
+        var map = new mapboxgl.Map({
+        container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11',
+          center: [8.873282, 51.940479],
+          zoom: 13
+        });
+
+        map.addControl(new mapboxgl.GeolocateControl({
+          positionOptions: {
+            enableHighAccuracy: true
+          },
+          trackUserLocation: true
+        }));
+      }
+    });
+    </script>
+</head>
+<body>
+	
+  <ons-navigator id="navigator" page="start.html"></ons-navigator>
+
+  <ons-template id="start.html">
+    <ons-page id="first-page">
+      <!--<ons-toolbar>
+        <div class="center">Page 1</div>
+      </ons-toolbar>-->
+      <div class="background"></div>
+
+      <div class="content" style="text-align: center">
+        
+        <div id="start-logo"> </div>
+
+        <ons-button id="tutti-button" class="routes-button">Tutti</ons-button>
+        <ons-button id="mezzo-button" class="routes-button">Mezzo</ons-button>
+        <ons-button id="piccolo-button" class="routes-button">Piccolo</ons-button>
+
+        <div id="info-buttons">
+          <ons-button id="info-button" class="info-button"></ons-button>
+          <ons-button id="impressum-button" class="info-button"></ons-button>
+        </div>
+      </div>
+    </ons-page>
+  </ons-template>
+
+  <ons-template id="map.html">
+    <ons-page id="map-page">
+      <div class="background"></div>
+      <div class="content-app">
+        <div class="navbar">
+          <ons-button id="home-button">Haus</ons-button>
+        </div>
+        <div id="map"></div>
+
+      </div>
+    </ons-page>
+  </ons-template>
+
+</body>
+</html>
