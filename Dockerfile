@@ -10,4 +10,4 @@ RUN npm install
 EXPOSE 8085
 
 # start nginx and keep the process from backgrounding and the container from quitting
-CMD ["npm run serve", "-g", "daemon off;"]
+CMD npm run serve
