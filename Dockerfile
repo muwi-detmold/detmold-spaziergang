@@ -2,10 +2,12 @@
 FROM node
 LABEL maintainer="Daniel Röwenstrunk for Muwi Detmold"
 
-RUN mkdir -p /app
 WORKDIR /app
 COPY . .
-RUN npm install
+RUN npm install \
+    && mv www phone \
+    && mkdir www \
+    && mv phone www/
 
 EXPOSE 8085
 
