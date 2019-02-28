@@ -82,3 +82,8 @@ div.background {
   height: calc(100% - 90px);
   border-radius: 0 0 10px 10px; 
 }
+
+#home-button {
+    background-image: url('../img/home.png');
+    background-repeat: no-repeat;
+}
