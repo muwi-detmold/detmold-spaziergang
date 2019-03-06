@@ -5,14 +5,14 @@ body {
 }
 
 div.background {
-    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
     background-color:rgb(162,219,255);
     background-image: url("../img/SchlossBackground_600.png");
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: 100% auto;/* 170px x 200px */
+    background-size: 100% auto;
 
     background-attachment:fixed;
     
@@ -25,65 +25,78 @@ div.background {
 }
 
 .content-app {
-  border: 1px solid #527cac;
-  background-color: #193871;
-  margin: 15px;
-  border-radius: 10px;
-  width: calc(100% - 30px);
-  height: calc(100% - 30px);
-}
-
-.routes-button {
-  background: none;
-  border: 3px solid #193871;
-  border-radius: 8px;
-  color: #193871;
-  width: 200px;
-  display: block;
-  margin: 10px auto;
-  font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  padding: 10px;
-}
-
-.info-button {
-  background: none;
-  border: 3px solid #193871;
-  border-radius: 25px;
-  color: #193871;
-  width: 50px;
-  height: 50px;
-  margin: 20px 7px;
-}
-
-#info-buttons {
-  width: 200px;
-  display: block;
-  margin: 0 auto;
-}
-
-#start-logo {
-  background-image: url("../img/logo.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 100% auto;
-  width: 250px;
-  height: 100px;  
-  margin: 40px auto 50px;
+    border: 1px solid #527cac;
+    background-color: #193871;
+    margin: 15px;
+    border-radius: 10px;
+    width: calc(100% - 30px);
+    height: calc(100% - 32px);
+    font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 }
 
 .navbar {
  height: 90px;
 }
 
-#map {
-  background-color: white;
-  width: 100%;
-  height: calc(100% - 90px);
-  border-radius: 0 0 10px 10px; 
+.navbar div {
+    width: 33.33%;
+    float: left;
+    margin-top: 30px;
 }
 
-#home-button {
-    background-image: url('../img/home.png');
-    background-repeat: no-repeat;
+.navbar-left,.page-nav-left {
+    text-align: left;
+}
+
+.navbar-middle,.page-nav-middle {
+    text-align: center;
+}
+
+.navbar-right,.page-nav-right {
+    text-align: right;
+}
+
+.home-button {
+    background: url('../img/home.png') no-repeat;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    background-size: 100% auto;
+}
+
+.back-button {
+    background: url('../img/left.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 5px 0 0 30px;
+    background-size: 100% auto;
+}
+
+.stations-button {
+    background: url('../img/menu.png') no-repeat;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 5px 0 0 30px;
+    background-size: 100% auto;
+}
+
+.map-button {
+    background: url('../img/places.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 20px 30px 20px 0;
+    background-size: 100% auto;
+}
+
+.page-nav {
+    height: 100px;
+}
+
+.page-nav div {
+    width: 33.33%;
+    float: left;
 }

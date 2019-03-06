@@ -1,0 +1,48 @@
+#start-logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    width: 250px;
+    height: 100px;
+    margin: 40px auto 50px;
+}
+
+.routes-button {
+    background: none;
+    border: 3px solid #193871;
+    border-radius: 8px;
+    color: #193871;
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.info-button {
+    background: none;
+    border: 3px solid #193871;
+    border-radius: 25px;
+    color: #193871;
+    width: 50px;
+    height: 50px;
+    margin: 20px 7px;
+    font-size: 1.7em;
+    font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+#info-button {
+    padding-top: 6px;
+}
+
+#impressum-button {
+    padding-top: -2px;
+}
+
+#info-buttons {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}

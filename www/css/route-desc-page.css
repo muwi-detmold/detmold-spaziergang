@@ -1,0 +1,78 @@
+.route-desc-map {
+    height: 200px;
+    background-size: auto 100%;
+    background: black url("") no-repeat center center;
+}
+
+.route-desc-map-play {
+    width: 100%;
+    height: 90px;
+    top: 55px;
+    position: relative;
+    background: url("../img/play.png") no-repeat center center;
+}
+
+.route-desc-title {
+    padding: 10px 0 10px 30px;
+}
+
+.route-desc-title-span {
+    font-size: 2em;
+    color: white;
+}
+
+.route-desc-content {
+    color: white;
+    font-size: 1.3em;
+    height: calc(100% - 480px);
+    overflow-y: auto;
+}
+
+.route-desc-length {
+    width: 50%;
+    float: left;
+    line-height: 40px;
+}
+
+.route-desc-numStations {
+    width: 50%;
+    float: left;
+    line-height: 40px;
+}
+
+.route-desc-duration {
+    width: 100%;
+    clear: both;
+    line-height: 40px;
+}
+
+.route-desc-length-img {
+    background: url("../img/lineal.png") center center no-repeat;
+    background-size: 100% auto;
+    width: 40px;
+    height: 40px;
+    margin: 10px 20px 0 30px;
+    display: inline-block;
+}
+
+.route-desc-numStations-img {
+    background: url("../img/station.png") center center no-repeat;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px 0 30px;
+    display: inline-block;
+}
+
+.route-desc-duration-img {
+    background: url("../img/clock.png") center center no-repeat;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px 0 30px;
+    display: inline-block;
+}
+
+.route-desc-description {
+    padding: 30px;
+}
