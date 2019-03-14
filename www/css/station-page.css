@@ -1,0 +1,72 @@
+.station-img {
+    height: 200px;
+    background-size: auto 100%;
+    background: black url("") no-repeat center center;
+}
+
+.station-title {
+    padding: 10px 0 10px 30px;
+}
+
+.station-title-span {
+    font-size: 2em;
+    color: white;
+}
+
+.station-content {
+    color: white;
+    font-size: 1.3em;
+    height: calc(100% - 480px);
+    overflow-y: auto;
+}
+
+.station-audio {
+    color: white;
+    font-size: 1.3em;
+    height: calc(100% - 480px);
+    overflow-y: auto;
+    display:none;
+    padding: 0 30px;
+}
+
+.station-audio-composer {
+    font-weight: bold;
+}
+
+.station-audio-player-time {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.station-audio-player-time-total {
+    float:right;
+}
+
+.station-audio-player-slider-background {
+    background-color: #193871;
+    height: 3px;
+    border-radius: 3px;
+    border: 1px solid #193871;
+}
+
+.station-description {
+    padding: 30px;
+}
+
+.station-description p:first-child {
+    margin-top: 0;
+}
+
+.station-quotes {
+    padding: 30px;
+}
+
+.station-quotes p:first-child {
+    margin-top: 0;
+}
+
+.ear-time {
+    color: white;
+    padding-left: 20px;
+    font-size: 1.3em;
+}

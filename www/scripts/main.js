@@ -43,7 +43,8 @@
                 bringPageTop('text-view-template', {data:{text:'credits'}});
             };
 
-        } else  if (page.matches('#route-desc-page')) {
+        }
+        else if (page.matches('#route-desc-page')) {
 
 
             let route = getRoute(page.data.route);
@@ -54,13 +55,95 @@
             page.querySelector('.route-desc-duration-span').innerHTML = route.duration;
             page.querySelector('.route-desc-description').innerHTML = route.description;
 
-            page.querySelector('.route-desc-map').setAttribute("style", "background-image: url('" + route.mapPreview + "')")
+            page.querySelector('.route-desc-map').setAttribute("style", "background-image: url('" + route.mapPreview + "')");
+
+            page.querySelector('.route-desc-map-play').onclick = function() {
+                bringPageTop('station-template', {data:{route: page.data.route, station: 0}});
+            }
 
             page.querySelector('.map-button').onclick = function() {
                 bringPageTop('route-map-template', {data:{route: page.data.route}});
             };
 
-        } else if (page.matches('#route-map-page')) {
+        }
+        else if (page.matches('#station-page')) {
+
+
+            let route = getRoute(page.data.route);
+            let station = route.stations[page.data.station];
+
+            page.querySelector('.station-title-span').innerHTML = station.title;
+            page.querySelector('.station-description').innerHTML = station.text;
+            page.querySelector('.station-quotes').innerHTML = station.source;
+
+            page.querySelector('.station-img').setAttribute("style", "background-image: url('" + station.img + "')");
+
+            page.querySelector('.ear-audio').src = station.textAudio;
+
+            let stopVoiceFn = null;
+            let playVoiceFn = function() {
+                page.querySelector('.ear-button').setAttribute("style", "background-image: url('img/NoEar.png')");
+                page.querySelector('.ear-audio').play();
+                page.querySelector('.ear-button').onclick = stopVoiceFn;
+            };
+
+            stopVoiceFn = function() {
+                page.querySelector('.ear-button').setAttribute("style", "background-image: url('img/Ear.png')");
+                page.querySelector('.ear-audio').pause();
+                page.querySelector('.ear-audio').currentTime = 0;
+                page.querySelector('.ear-button').onclick = playVoiceFn;
+            };
+
+            page.querySelector('.ear-button').onclick = playVoiceFn;
+
+            page.querySelector('.ear-audio').ontimeupdate = function() {
+                let time = "";
+                if(this.currentTime > 0) {
+                    time = "0:" + (Math.floor(this.duration) - Math.floor(this.currentTime));
+                }
+                page.querySelector('.ear-time').innerHTML = time;
+            }
+
+
+            if(station.audioFile != null) {
+
+                page.querySelector('.notes-text-button').setAttribute("style", "visibility: visible");
+
+                let switchToText = null;
+                let switchToAudio = function () {
+                    stopVoiceFn();
+                    page.querySelector('.notes-text-button').setAttribute("style", "visibility: visible; background-image: url('img/Text.png')");
+                    page.querySelector('.ear-button').setAttribute("style", "display: none");
+                    page.querySelector('.station-content').hidden = true;
+                    page.querySelector('.station-audio').setAttribute("style", "display: block");
+
+                    page.querySelector('.notes-text-button').onclick = switchToText;
+                };
+
+                switchToText = function () {
+                    page.querySelector('.notes-text-button').setAttribute("style", "visibility: visible; background-image: url('img/Notes.png')");
+                    page.querySelector('.ear-button').setAttribute("style", "display: inline-block");
+                    page.querySelector('.station-audio').setAttribute("style", "display: none");
+                    page.querySelector('.station-content').hidden = false;
+
+                    page.querySelector('.notes-text-button').onclick = switchToAudio;
+                }
+
+                page.querySelector('.notes-text-button').onclick = switchToAudio;
+
+
+                page.querySelector('.station-audio-composer').innerHTML = station.audioComposer;
+                page.querySelector('.station-audio-title').innerHTML = station.audioTitle;
+                page.querySelector('.station-audio-label').innerHTML = station.audioLabel;
+
+            }
+
+            page.querySelector('.map-button').onclick = function() {
+                bringPageTop('route-map-template', {data:{route: page.data.route, station: 0}});
+            };
+
+        }
+        else if (page.matches('#route-map-page')) {
 
             let route = getRoute(page.data.route);
 
@@ -125,13 +208,18 @@
                     return data.route == options.data.route;
                 });
 
+            else if(page == 'station-template')
+                existingPageIndex = findPageInNav(nav, '#station-page', function(data) {
+                    return data.route == options.data.route && data.station == options.data.station;
+                });
+
             else if(page == 'text-view-template')
                 existingPageIndex = findPageInNav(nav, '#text-view-page', function(data) {
                     return data.text == options.data.text;
                 });
 
-            console.log("index to use: " + existingPageIndex);
-            console.log(nav.pages[existingPageIndex]);
+//            console.log("index to use: " + existingPageIndex);
+//            console.log(nav.pages[existingPageIndex]);
             if(existingPageIndex > -1)
                 nav.bringPageTop(existingPageIndex);
             else

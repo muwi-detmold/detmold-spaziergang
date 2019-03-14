@@ -26,7 +26,7 @@ div.background {
 
 .content-app {
     border: 1px solid #527cac;
-    background-color: #193871;
+    background-color: rgba(25,56,113, 0.85);
     margin: 15px;
     border-radius: 10px;
     width: calc(100% - 30px);
@@ -81,6 +81,34 @@ div.background {
     padding: 0;
     margin: 5px 0 0 30px;
     background-size: 100% auto;
+}
+
+.next-station-button {
+    background: url('../img/right.png') no-repeat;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 5px 30px 0 0;
+    background-size: 100% auto;
+}
+
+.ear-button {
+    background: url('../img/Ear.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 20px 0 20px 30px;
+    background-size: 100% auto;
+}
+
+.notes-text-button {
+    background: url('../img/Notes.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 20px auto;
+    background-size: 100% auto;
+    visibility: hidden;
 }
 
 .map-button {
