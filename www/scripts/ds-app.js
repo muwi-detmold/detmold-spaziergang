@@ -156,11 +156,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Der Detmolder Bahnhof</b> verfügt über ein in Nordrhein-Westfalen einzigartiges Empfangsgebäude. Heute lassen lediglich die Ornamente an der Sandsteinfassade die ursprüngliche Pracht des Empfangsgebäudes erahnen. Bis ins 20. Jahrhundert diente ein Teil, das sogenannte Fürstenzimmer, dem lippischen Fürsten als exklusiver Warte- und Empfangsbereich. Gegenüber dem ehemaligen Fürstenzimmer – an den Fahrradständern – wird seit einigen Jahren zu bestimmten Zeiten Musik abgespielt, wodurch sich die Gäste der Residenzstadt musikalisch begrüßt fühlen können. Und...? Hören Sie die Musik? Erkennen Sie das Stück?</p>",
                     "source": "<p>Strohmann, Dirk. <em>Das Empfangsgebäude des Detmolder Bahnhofs und sein Fürstenzimmer</em>. Münster 2009.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*der Bahnhof hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*der Bahnhof hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Kaiserkeller",
@@ -169,11 +169,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Hamburg hat den „Star-Club“, Detmold hat den „Kaiserkeller“.</b> Sie stehen vor der wohl renommiertesten Musikkneipe der Region, dem Kaiserkeller. Er genießt großes Ansehen in Detmold und ist über 20 Jahre alt. Neben einem vielfältigen Angebot an Live-Musik diverser Stilrichtungen können Sie hier regelmäßig Poetry Slams erleben. Und nicht nur das: der Kaiserkeller hat eine eigene Hausband, „The Detonators“, die einmal im Monat bei der Blues-Session auftreten. Darüber hinaus werden immer wieder Musikerinnen und Musiker der Musikhochschule Detmold für Auftritte eingeladen.</p>",
                     "source": "https://www.lz.de/lippe/kreis_lippe/20312773_Kaiserkeller-Detmold-Heimat-fuer-Rock-Pop-Blues-und-Co..html",
-                    "text-audio": "",
-                    "audio-file": "URL",
-                    "audio-title": "Soulsession der Houseband „The Detonators\"",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "",
+                    "audioFile": "URL",
+                    "audioTitle": "Soulsession der Houseband „The Detonators\"",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Christuskirche",
@@ -182,11 +182,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Sind Sie zur richtigen Zeit am richtigen Ort?</b> Sie werden es hören. Zur vollen Stunde können Sie den Glocken der Kirche lauschen. Drei Bronzeglocken ergänzen seit den 60er-Jahren die beiden älteren tiefen Stahlglocken so, dass heute der berühmte „Westminsterschlag“ ertönen kann. Die Christuskirche selbst wurde zu Beginn des 20. Jahrhunderts errichtet. Die ursprüngliche Orgel wurde 1957 durch ein Instrument der Firma Paul Otto ersetzt. Die Akustik der neugotischen Christuskirche trägt den Klang der Orgel in besonderer Art und Weise.</p>",
                     "source": "Sünder-Gaß, Dr. Martina: <em>Die Christuskirche in Detmold: Ein Führer durch die evangelisch-reformierte Stadtkirche</em>, Detmold 2005.",
-                    "text-audio": "URL",
-                    "audio-file": "URL", /*Aufnahme der GLocken*/
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL", /*Aufnahme der GLocken*/
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Ludwig Altenbernd Haus",
@@ -195,11 +195,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Ludwig Altenbernd (1818-1890)</b> zog als junger Mann von seinem Geburtsort Augustdorf in die nahe gelegene Residenzstadt Detmold, wo er bis zu seinem Tod lebte. Dort arbeitete er als Fürstlich Lippischer Kammerkalkulator, heute würde man wohl Rechnungsbeamter sagen. Altenbernd muss äußert wissbegierig gewesen sein, denn er eignete sich umfassende Kenntnisse in neueren Sprachen und Arithmetik selbst an. Dabei beließ er es aber nicht! Neben seiner – vielleicht eher trockenen – Arbeit bei der fürstlichen Regierung schrieb er in seiner Freizeit Gedichte und Lieder. Hören Sie selbst…</p>",
                     "source": "<p>Ludwig Altenbernd: <em>Eine Auswahl an feinen Dichtungen zum 100. Geburtstag</em>, Detmold 1919; Und: https://www.lwl.org/literaturkommission/alex/index.php?id=00000003 href=\"https://www.lwl.org/literaturkommission/alex/index.php?id=00000003&letter=A&layout=2&author_id=00000277\">&letter=A&layout=2&author_id=00000277, aufgerufen am 11.09.2018</p>",
-                    "text-audio": "URL",
-                    "audio-file": "https://youtu.be/r_7sIGiqdrc?t=553",
-                    "audio-title": "Mein Lipperland",
-                    "audio-composer": "Ernst Schramm und Ludwig Altenbernd",
-                    "audio-label": "His Master's Voice"
+                    "textAudio": "URL",
+                    "audioFile": "https://youtu.be/r_7sIGiqdrc?t=553",
+                    "audioTitle": "Mein Lipperland",
+                    "audioComposer": "Ernst Schramm und Ludwig Altenbernd",
+                    "audioLabel": "His Master's Voice"
                 },
                 {
                     "title": "Wagner Statue",
@@ -208,11 +208,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Richard Wagner.</b> Der Name des berühmten Komponisten ist mit dem dunkelsten Kapitel der Musikgeschichte Detmolds verknüpft: Die als „reichswichtig“ eingestuften Richard-Wagner-Festwochen machten 1935 bis 1944 Detmold zum „Vorort zu Bayreuth\" und Schauplatz nationalsozialistischer Kulturpropaganda. Die Wagner-Büste wurde am 14. Okt. 1941 als Geschenk des Gaues Westfalen-Nord unter schmetternden Fanfaren des sogenannten „Jungvolks“ und mit Musik aus Wagners Lohengrin im Rahmen eines öffentlichen NS-Festakts enthüllt. Der linientreue Bildhauer Georg Hengstenberg schuf sie; ursprünglich stand sie direkt vor dem Landestheater.</p>",
                     "source": "<p>Joachim Iffland: Vorwort. In: <em>Lippes Grüner Hügel. Die Richard-Wagner-Festwochen in Detmold 1935-1944</em>. Projekt Lippes Grüner Hügel (Hrsg.). Detmold 2012. S. 7-9.</p><p>Lippische Landsbibliothek: <em>Wagner in Detmold 1855-1945. Eine Ausstellung im Landestheater anlässlich der Ring-Inszenierung vom 3. Oktober bis 16. Dezember 2009</em>. Detmold 2009, http://www.llb-detmold.de/wir-ueber-uns/aus-unserer-arbeit/ausstellungen/ausstellung-2009-5.html</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Die Wagner Statue hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Die Wagner Statue hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Landestheater",
@@ -221,11 +221,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Wir schreiben den 8. November 1825:</b> Das heutige Landestheater wird mit Mozarts Oper La clemenza di Tito feierlich eröffnet. Es wurde damals vom fürstlichen Hof der Residenzstadt gegründet und führte zeitgenössische Schauspiele, Opern und Singspiele auf. Noch heute wird auf zeitgenössische Werke gesetzt. So werden beispielsweise Opern von Strawinsky und Hindemith zur Aufführung gebracht. Im Rahmen des Internationalen Giselher-Klebe-Wettbewerbs können es aber auch Kompositionen von heutigen Nachwuchstalenten auf die Bühne schaffen.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, Kapitel IV., in: <em>MGG Online/em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/47816</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",
-                    "audio-title": "La clemenza di Tito, KV 621",
-                    "audio-composer": "W. A. Mozart",
-                    "audio-label": "Teldec Classics Internat"
+                    "textAudio": "URL",
+                    "audioFile": "URL",
+                    "audioTitle": "La clemenza di Tito, KV 621",
+                    "audioComposer": "W. A. Mozart",
+                    "audioLabel": "Teldec Classics Internat"
                 },
                 {
                     "title": "Schloss",
@@ -234,11 +234,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Hier spielt die Musik!</b> Hinter den dicken Mauern des Fürstlichen Residenzschlosses erfreute man sich zu Beginn des 18. Jahrhunderts einer regen Musikpflege. Einerseits gestalteten Stadtmusiker das höfische Musikleben, andererseits kamen auch Musiker von auswärts an den Lippischen Hof um Konzerte zu geben, besonders zu festlichen Anlässen. Dementsprechend erlebten sowohl die Stadt als auch das Theater einen Aufschwung des kulturellen Lebens. Im 19. Jahrhundert bildeten sich größere Ensembles, die ausschließlich für die Hofmusik zuständig waren.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, in: <em>Die Musik in Geschichte und Gegenwart 2</em>, hrsg. von Ludwig Finscher, Kassel u.a. 1995, Sp. 1162-1169.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Das Schloss hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Das Schloss hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Brahms Statue",
@@ -247,11 +247,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Was macht eine Büste von Johannes Brahms im beschaulichen Detmold?</b> Richtig gesehen, dieses Bildnis stellt den berühmten Komponisten und Pianisten dar. Brahms verbrachte in den späten 1850er Jahren mehrere Winter in der Residenzstadt und bereicherte das Detmolder Musikleben. Er unterrichtete die lippische Prinzessin Friederike, gab Konzerte und leitete den höfischen Chor. Darüber hinaus komponierte er viel, beispielsweise die zwei <em>Serenaden</em> op. 11 und op. 16.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, in: <em>MGG Online</em>, Kapitel III.1, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/47817.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*der Bahnhof hat keine Musik */
-                    "audio-title": "Serenade op. 16, Satz V, Rondo: Allegro",
-                    "audio-composer": "Johannes Brahms",
-                    "audio-label": "Sony Music"
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*der Bahnhof hat keine Musik */
+                    "audioTitle": "Serenade op. 16, Satz V, Rondo: Allegro",
+                    "audioComposer": "Johannes Brahms",
+                    "audioLabel": "Sony Music"
                 },
                 {
                     "title": "Lortzing Haus",
@@ -260,11 +260,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>In diesem Haus lebte in den 1820er Jahren ein echter Großstadtlöwe.</b> Der gebürtige Berliner Albert Lortzing (1801-1851) kam aus einer kunstbegeisterten Familie, daher ist es kein Wunder, dass er Komponist, Schauspieler, Sänger und Kapellmeister wurde. Während seiner Kindheit war Lortzing mit seinen Eltern viel auf Reisen, was sich auch während seiner Zeit in Detmold kaum änderte. Als Angestellter des Detmolder Hoftheaters war er mit seinen Kollegen viel im Umland unterwegs. Dennoch war er künstlerisch sehr produktiv und seine Werke fanden großen Anklang.</p>",
                     "source": "<p>Irmlind Capelle: Art. Lortzing, Albert, Biographie, in: <em>MGG Online</em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: zuerst veröffentlicht 2004, online veröffentlicht 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/14876.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*der Bahnhof hat keine Musik */
-                    "audio-title": "Ouvertüre zu „Der Wildschütz“",
-                    "audio-composer": "Albert Lorzing",
-                    "audio-label": "###"
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*der Bahnhof hat keine Musik */
+                    "audioTitle": "Ouvertüre zu „Der Wildschütz“",
+                    "audioComposer": "Albert Lorzing",
+                    "audioLabel": "###"
                 },
                 {
                     "title": "Marktplatz",
@@ -273,11 +273,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Neben dem geschäftigen Alltagstreiben</b> gibt es am Marktplatz viel Geschichtliches zu entdecken. Lassen Sie Ihren Blick schweifen auf das schöne Eckhaus, das die Lange Straße von der Schülerstraße trennt. Viele bekannte Persönlichkeiten haben in diesem Haus gewohnt. Christian Dietrich Grabbe (1801-1836), ein bedeutender Dramatiker des deutschen Frührealismus, residierte hier. Ebenso Malwida von Meysenbug (1816-1903), die ebenfalls eine Schriftstellerin war und sich für die Rechte der Frauen einsetzte. Auch Johannes Brahms (1833-1897), der berühmte Komponist und Pianist, wählte dieses Haus als seinen Wohnort.</p>",
                     "source": "<p>Arnold Ebert: <em>Detmold - eine wunderschöne Stadt</em>, Detmold 1987.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*der Marktplatz hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*der Marktplatz hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Erlöserkirche",
@@ -286,11 +286,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Die Erlöserkirche</b> bekam als eine der Ersten in der Grafschaft Lippe eine Orgel. Den Kern der heutigen Orgel bilden 21 original spätbarocke Register des berühmten Orgelbauers Johann-Markus Oestreich. Das Instrument umfasst ca. 2500 Pfeifen. Aufgrund des spätbarocken Klangcharakters kann man Werke von der Romantik bis zur Moderne gut darstellen. Die tiefere der beiden Kirchenglocken, die sogenannte „Feuerglocke” aus der Renaissancezeit, ist die älteste erhaltene Glocke der Stadt. Die höhere ersetzt seit 2005 als „Friedensglocke” ihre, im Ersten Weltkrieg eingeschmolzene, Vorgängerin.</p>",
                     "source": "<p>Kirchengemeinde Detmold-Ost: <em>Die Erlöserkirche am Markt in Detmold</em>, Flyer.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",
-                    "audio-title": "Improvisation über ein Thema von Gottfried Vierling",
-                    "audio-composer": "Original: Gottfried Vierling, Improvisation: ###",
-                    "audio-label": "###"
+                    "textAudio": "URL",
+                    "audioFile": "URL",
+                    "audioTitle": "Improvisation über ein Thema von Gottfried Vierling",
+                    "audioComposer": "Original: Gottfried Vierling, Improvisation: ###",
+                    "audioLabel": "###"
                 },
                 {
                     "title": "Martin Luther Kirch",
@@ -299,11 +299,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Der Bau der Martin-Luther-Kirche</b> geht auf die Gräfin Johannette Wilhelmine zurück, die im 18. Jahrhundert am lutherischen Glauben festhielt. Zunächst sollten Räumlichkeiten im Schloss zur Ausübung des lutherischen Glaubens dienen. 1733-41 wurde an heutiger Stelle eine kleine Kirche im barocken Stil erbaut, in welcher der lutherische Glaube weiterhin praktiziert wurde. Wegen der anwachsenden Gemeinde wurde die Barockkirche Ende des 19. Jahrhunderts abgerissen und durch einen neugotischen Bau ersetzt. Seit den 1870er Jahren ist der Chorgesang ein fester Bestandteil der Gemeinde.</p>",
                     "source": "<p>Ev.-lutherische Kirchengemeinde Detmold: <em>detmold-lutherisch: Glauben & Geschichte</em> und <em>Martin-Luther-Kantorei</em>, Flyer.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",
-                    "audio-title": "Die Glocken der Martin Luther Kirche",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",
+                    "audioTitle": "Die Glocken der Martin Luther Kirche",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Haus Münsterberg",
@@ -312,11 +312,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Das Wohnhaus der jüdischen Familie Münsterberg</b>war 1917-1942 Sitz des Musik-Konservatoriums. Danach wurde es unter NS-Heimatschutz gestellt und an das Rote-Kreuz verkauft. Heute befinden sich dort die Vereine „Literaturbüro“ und „Gesellschaft für Christlich-Jüdische Zusammenarbeit in Lippe“. Das Literaturbüro organisiert seit 2000 das Literatur- und Musikfestival „Wege durch das Land“. Sie können auf der Veranstaltung bekannte Künstlerinnen und Künstler aus den Bereichen Schauspiel, Musik und Literatur erleben.</p>",
                     "source": "<p>Marlen Dettmer et al.: <em>Haus Münsterberg. Lippische Kulturlandschaften</em>, Detmold 2017.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "",/*Das Literaturbüro hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label":""
+                    "textAudio": "URL",
+                    "audioFile": "",/*Das Literaturbüro hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel":""
                 },
                 {
                     "title": "Musikbibliothek",
@@ -325,11 +325,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Mehr als 19.000 Tonträger</b> und DVDs, über 60.000 Notenhefte und musikwissenschaftliche Literatur so weit das Auge reicht. Dürfen wir Ihnen vorstellen? …Sie befinden sich vor der Musikbibliothek des Musikwissenschaftlichen Seminars Detmold/Paderborn, die im September 2015 eingeweiht wurde. Seitdem steht die Musikbibliothek allen Interessierten offen, dicke Nachschlagewerke zu wälzen, jede Menge CDs anzuhören oder sich durch alle möglichen Noten zu schmökern. Schauen Sie doch zu den Öffnungszeiten mal rein. Aber pssst… immer schön leise sein!</p>",
                     "source": "<p>Andreas Klingenberg: <em>Der Neubau der Musikbibliothek</em>, http://www.hfm-detmold.de/studium/bibliothek/neubau/.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Die Musikbib hat keine Musik, da ist es ja auch leise*/
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Die Musikbib hat keine Musik, da ist es ja auch leise*/
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Palaisgarten",
@@ -338,11 +338,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Der Palaisgarten</b> – ein englischer Landschaftsgarten aus dem 18. Jahrhundert. Hier können Sie mit etwas Glück Musik hören, aber auch viele weitere Klänge genießen. Z.B. das Vogelgezwitscher, die Wasserspiele, das Rauschen des Windes in den Bäumen oder aber die musizierenden Studierenden der Hochschule für Musik. Schließen Sie gerne die Augen und lauschen Sie für einen Moment… Was hören Sie? Das sanfte Plätschern des Schwanenteiches im oberen Bereich des Gartens, das leise Ächzen eines Mammutbaumes oder eher virtuose Stücke von Liszt und Chopin…?</p>",
                     "source": "<p>Thomas Dann: <em>Das Neue Palais in Detmold</em>, Heft 16, Verlag Lippische Kulturlandschaften, 1. Auflage 2010.</p> <p>Peter Schütze: <em>Also um eins, auf der langen Straße</em> Wartberg Verlag 2006.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Der Palaisgarten hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Der Palaisgarten hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Palais",
@@ -351,11 +351,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Musik fehlt noch*/
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Musik fehlt noch*/
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 }
             ]
         },
@@ -374,122 +374,96 @@ window.appData = {
                         "geometry": {
                             "type": "LineString",
                             "coordinates": [
-                                [8.87318730354309, 51.94000554928616],
-                                [8.872838616371155, 51.93914239048427],
-                                [8.872355818748474, 51.93791541969765],
-                                [8.87345552444458, 51.93772359912918],
-                                [8.873680830001831, 51.937746749930945],
-                                [8.873804211616516, 51.93778974424543],
-                                [8.873927593231201, 51.93785588926418],
-                                [8.873986601829529, 51.93794518488475],
-                                [8.874769806861877, 51.93784266026821],
-                                [8.874528408050537, 51.93712498139231],
-                                [8.875263333320618, 51.93694307939275],
-                                [8.87572467327118, 51.93685378177762],
-                                [8.875880241394043, 51.93680747924056],
-                                [8.875998258590698, 51.936741332676135],
-                                [8.877178430557251, 51.93701253297053],
-                                [8.878669738769531, 51.937396179367646],
-                                [8.878905773162842, 51.937366413816285],
-                                [8.879114985466003, 51.937296960786355],
-                                [8.878846764564514, 51.937111752180826],
-                                [8.878857493400574, 51.93702245490141],
-                                [8.878498077392578, 51.93663219063165],
-                                [8.87843906879425, 51.936546199742935],
-                                [8.87841761112213, 51.93647674544325],
-                                [8.87843906879425, 51.93639736896913],
-                                [8.87868583202362, 51.93611955020382],
-                                [8.879356384277344, 51.93612616495631],
-                                [8.87946367263794, 51.9362386155996],
-                                [8.879801630973816, 51.93609970594047],
-                                [8.880150318145752, 51.93594425890725],
-                                [8.88043999671936, 51.9358251927303],
-                                [8.880037665367126, 51.93554737042206],
-                                [8.879780173301697, 51.93533900256192],
-                                [8.879426121711731, 51.9350314101427],
-                                [8.8789701461792, 51.93520009011758],
-                                [8.878653645515442, 51.935173630555596],
-                                [8.878578543663025, 51.93502479522881],
-                                [8.878755569458008, 51.93498510572494],
-                                [8.87921690940857, 51.93493880125939],
-                                [8.879560232162476, 51.934826347358424],
-                                [8.880295157432556, 51.93455182635753],
-                                [8.880531191825867, 51.93445590898536],
-                                [8.880718946456907, 51.934373221431024],
-                                [8.881121277809143, 51.93426076611255],
-                                [8.880756497383118, 51.933721638171356],
-                                [8.880541920661926, 51.93347357099177],
-                                [8.880423903465271, 51.93338757404939],
-                                [8.880321979522705, 51.93332473002573],
-                                [8.88020396232605, 51.93329165418846],
-                                [8.880343437194824, 51.93308989105311],
-                                [8.879925012588501, 51.932987355341574],
-                                [8.880155682563782, 51.93259374833742],
-                                [8.87993037700653, 51.93235890553917],
-                                [8.880032300949097, 51.93230929070623],
-                                [8.88018786907196, 51.9321835995506],
-                                [8.880161046981812, 51.93204467733741],
-                                [8.880246877670288, 51.93181313935966],
-                                [8.880772590637207, 51.93156836934134],
-                                [8.881840109825134, 51.930979592747946],
-                                [8.881673812866211, 51.930761280362496],
-                                [8.881287574768066, 51.93091674535191],
-                                [8.880869150161743, 51.930463579943485],
-                                [8.881169557571411, 51.93035111482679],
-                                [8.8809335231781, 51.930076566446324],
-                                [8.880810141563416, 51.93007987426813],
-                                [8.880413174629211, 51.929613468986574],
-                                [8.880268335342405, 51.92968624176102],
-                                [8.880161046981812, 51.929795400701394],
-                                [8.880075216293335, 51.92969947316187],
-                                [8.87993037700653, 51.9296035454173],
+                                [8.875661, 51.936933],
+                                [8.875628113746643, 51.93687031838644],
+                                [8.875797092914581, 51.93682732319089],
+                                [8.875888288021088, 51.93680913290343],
+                                [8.876000940799713, 51.936741332676135],
+                                [8.875896334648132, 51.93661565393507],
+                                [8.875799775123596, 51.93640729103609],
+                                [8.875676393508911, 51.93607655428878],
+                                [8.875612020492554, 51.93587480367576],
+                                [8.8754403591156, 51.935897955431514],
+                                [8.875443041324615, 51.935717702160304],
+                                [8.875400125980377, 51.93544153289974],
+                                [8.875343799591064, 51.93508763687146],
+                                [8.875343799591064, 51.93499833556347],
+                                [8.87534648180008, 51.93483626977278],
+                                [8.875375986099241, 51.93471885439549],
+                                [8.87545645236969, 51.93445094773641],
+                                [8.875531554222107, 51.93423430599664],
+                                [8.875751495361328, 51.93404743098391],
+                                [8.876003623008728, 51.93388536175863],
+                                [8.87634426355362, 51.93370013907006],
+                                [8.87659102678299, 51.933572798028166],
+                                [8.876920938491821, 51.93342064981596],
+                                [8.877393007278442, 51.933185811345325],
+                                [8.877307176589964, 51.93303035421685],
+                                [8.877092599868774, 51.93275251460328],
+                                [8.876861929893494, 51.932506095887454],
+                                [8.876746594905853, 51.93239032823832],
+                                [8.876540064811707, 51.93216540738047],
+                                [8.87618601322174, 51.931768485469405],
+                                [8.875976800918579, 51.9315319844949],
+                                [8.875547647476196, 51.9310887485424],
+                                [8.875778317451477, 51.93101267028944],
+                                [8.875901699066162, 51.930966361724515],
+                                [8.875606656074524, 51.9306521237715],
+                                [8.876175284385681, 51.93045696435619],
+                                [8.876926302909851, 51.930225418186374],
+                                [8.876738548278809, 51.930165877549584],
+                                [8.877108693122864, 51.930020333438264],
+                                [8.877419829368591, 51.92994756120559],
+                                [8.877886533737183, 51.92969285746192],
+                                [8.878326416015625, 51.92934222396951],
+                                [8.879098892211914, 51.9292793742804],
                                 [8.879806995391846, 51.92963331611859],
-                                [8.879104256629944, 51.92927275851852],
-                                [8.878321051597595, 51.929348839721136],
-                                [8.87818157672882, 51.92915367463812],
-                                [8.877768516540527, 51.92948115454891],
-                                [8.877430558204649, 51.9296432396813],
-                                [8.877060413360594, 51.929666394652415],
-                                [8.87669563293457, 51.92971601240745],
-                                [8.87647032737732, 51.92978216932882],
-                                [8.876287937164307, 51.929960792529414],
-                                [8.876550793647766, 51.93019234006457],
-                                [8.876738548278809, 51.9301724931798],
-                                [8.876915574073792, 51.9302320338078],
-                                [8.876169919967651, 51.93045034876792],
-                                [8.875772953033447, 51.93058266034807],
-                                [8.875579833984375, 51.93066535488757],
-                                [8.875821232795715, 51.93099282376746],
-                                [8.8754403591156, 51.931128441492724],
-                                [8.877130150794983, 51.933046892234856],
-                                [8.877301812171936, 51.933013816192776],
-                                [8.877409100532532, 51.93317919615934],
-                                [8.877103328704832, 51.933328037608106],
-                                [8.87672245502472, 51.93351326183265],
-                                [8.876368403434753, 51.93368194751477],
-                                [8.876057267189026, 51.933857247649755],
-                                [8.875805139541626, 51.93400608684941],
-                                [8.875536918640137, 51.93420123082982],
-                                [8.87545645236969, 51.93445590898536],
-                                [8.875359892845154, 51.93476681282616],
-                                [8.875333070755005, 51.93505125487856],
-                                [8.875392079353333, 51.935368769458314],
-                                [8.875429630279541, 51.93565982251595],
-                                [8.87545645236969, 51.93591449239261],
-                                [8.874785900115967, 51.93605340262516],
-                                [8.87444794178009, 51.93613277970784],
-                                [8.87419044971466, 51.9362419229672],
-                                [8.874485492706299, 51.937045606065],
-                                [8.873782753944397, 51.93720435657915],
-                                [8.873777389526367, 51.93732011180827],
-                                [8.873557448387146, 51.93736972110076],
-                                [8.873616456985474, 51.93751193410184],
-                                [8.873101472854614, 51.937594615872],
-                                [8.872613310813904, 51.93787242550362],
-                                [8.872345089912415, 51.93791872694164],
-                                [8.872838616371155, 51.939145697637805],
-                                [8.873198032379149, 51.94000885637608]
-
+                                [8.879903554916382, 51.9296101611304],
+                                [8.880059123039246, 51.929722628103974],
+                                [8.880123496055603, 51.92979870854394],
+                                [8.88018250465393, 51.92981193991163],
+                                [8.880321979522705, 51.92967962605911],
+                                [8.880423903465271, 51.92962339255369],
+                                [8.880794048309326, 51.930076566446324],
+                                [8.88094961643219, 51.930076566446324],
+                                [8.881158828735352, 51.93035773042969],
+                                [8.880874514579773, 51.930476811115156],
+                                [8.881282210350037, 51.93092005311178],
+                                [8.881673812866211, 51.93076458813384],
+                                [8.881807923316956, 51.930939899665944],
+                                [8.882199525833128, 51.93073151040945],
+                                [8.882639408111572, 51.930526427974186],
+                                [8.883014917373657, 51.93034780702499],
+                                [8.883106112480162, 51.93041396301499],
+                                [8.882832527160645, 51.93054296691499],
+                                [8.88246238231659, 51.93071166376313],
+                                [8.88193130493164, 51.930969669480724],
+                                [8.881351947784424, 51.93125744333885],
+                                [8.881062269210815, 51.93140298343799],
+                                [8.880831599235535, 51.93152867678012],
+                                [8.880488276481628, 51.9316973699228],
+                                [8.880343437194824, 51.93177344701497],
+                                [8.880276381969452, 51.93180321627678],
+                                [8.88034075498581, 51.93187929318949],
+                                [8.880649209022522, 51.93220509937851],
+                                [8.881158828735352, 51.932787244649056],
+                                [8.88069212436676, 51.932960894474746],
+                                [8.880520462989807, 51.93313950502294],
+                                [8.880772590637207, 51.93336111341859],
+                                [8.880895972251892, 51.93342064981596],
+                                [8.880579471588135, 51.933496723986565],
+                                [8.880836963653564, 51.93383740238582],
+                                [8.881099820137024, 51.93424422854195],
+                                [8.880761861801146, 51.934340146366594],
+                                [8.880536556243896, 51.93442944898456],
+                                [8.880617022514343, 51.93447244647795],
+                                [8.880448043346405, 51.93453694264078],
+                                [8.880190551280975, 51.93462789861034],
+                                [8.879766762256622, 51.934781696466615],
+                                [8.87955754995346, 51.93484949965518],
+                                [8.879638, 51.934978],
+                                [8.879153, 51.935172],
+                                [8.878657, 51.935337]
                             ]
                         }
                     }
@@ -515,11 +489,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Wir schreiben den 8. November 1825:</b> Das heutige Landestheater wird mit Mozarts Oper La clemenza di Tito feierlich eröffnet. Es wurde damals vom fürstlichen Hof der Residenzstadt gegründet und führte zeitgenössische Schauspiele, Opern und Singspiele auf. Noch heute wird auf zeitgenössische Werke gesetzt. So werden beispielsweise Opern von Strawinsky und Hindemith zur Aufführung gebracht. Im Rahmen des Internationalen Giselher-Klebe-Wettbewerbs können es aber auch Kompositionen von heutigen Nachwuchstalenten auf die Bühne schaffen.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, Kapitel IV., in: <em>MGG Online/em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/47816</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",
-                    "audio-title": "La clemenza di Tito, KV 621",
-                    "audio-composer": "W. A. Mozart",
-                    "audio-label": "Teldec Classics Internat"
+                    "textAudio": "URL",
+                    "audioFile": "URL",
+                    "audioTitle": "La clemenza di Tito, KV 621",
+                    "audioComposer": "W. A. Mozart",
+                    "audioLabel": "Teldec Classics Internat"
                 },
                 {
                     "title": "Wagner Statue",
@@ -528,11 +502,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Richard Wagner.</b> Der Name des berühmten Komponisten ist mit dem dunkelsten Kapitel der Musikgeschichte Detmolds verknüpft: Die als „reichswichtig“ eingestuften Richard-Wagner-Festwochen machten 1935 bis 1944 Detmold zum „Vorort zu Bayreuth\" und Schauplatz nationalsozialistischer Kulturpropaganda. Die Wagner-Büste wurde am 14. Okt. 1941 als Geschenk des Gaues Westfalen-Nord unter schmetternden Fanfaren des sogenannten „Jungvolks“ und mit Musik aus Wagners Lohengrin im Rahmen eines öffentlichen NS-Festakts enthüllt. Der linientreue Bildhauer Georg Hengstenberg schuf sie; ursprünglich stand sie direkt vor dem Landestheater.</p>",
                     "source": "<p>Joachim Iffland: Vorwort. In: <em>Lippes Grüner Hügel. Die Richard-Wagner-Festwochen in Detmold 1935-1944</em>. Projekt Lippes Grüner Hügel (Hrsg.). Detmold 2012. S. 7-9.</p><p>Lippische Landsbibliothek: <em>Wagner in Detmold 1855-1945. Eine Ausstellung im Landestheater anlässlich der Ring-Inszenierung vom 3. Oktober bis 16. Dezember 2009</em>. Detmold 2009, http://www.llb-detmold.de/wir-ueber-uns/aus-unserer-arbeit/ausstellungen/ausstellung-2009-5.html</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Die Wagner Statue hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Die Wagner Statue hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Schloss",
@@ -541,11 +515,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Hier spielt die Musik!</b> Hinter den dicken Mauern des Fürstlichen Residenzschlosses erfreute man sich zu Beginn des 18. Jahrhunderts einer regen Musikpflege. Einerseits gestalteten Stadtmusiker das höfische Musikleben, andererseits kamen auch Musiker von auswärts an den Lippischen Hof um Konzerte zu geben, besonders zu festlichen Anlässen. Dementsprechend erlebten sowohl die Stadt als auch das Theater einen Aufschwung des kulturellen Lebens. Im 19. Jahrhundert bildeten sich größere Ensembles, die ausschließlich für die Hofmusik zuständig waren.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, in: <em>Die Musik in Geschichte und Gegenwart 2</em>, hrsg. von Ludwig Finscher, Kassel u.a. 1995, Sp. 1162-1169.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Das Schloss hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Das Schloss hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Erlöserkirche",
@@ -554,11 +528,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Die Erlöserkirche</b> bekam als eine der Ersten in der Grafschaft Lippe eine Orgel. Den Kern der heutigen Orgel bilden 21 original spätbarocke Register des berühmten Orgelbauers Johann-Markus Oestreich. Das Instrument umfasst ca. 2500 Pfeifen. Aufgrund des spätbarocken Klangcharakters kann man Werke von der Romantik bis zur Moderne gut darstellen. Die tiefere der beiden Kirchenglocken, die sogenannte „Feuerglocke” aus der Renaissancezeit, ist die älteste erhaltene Glocke der Stadt. Die höhere ersetzt seit 2005 als „Friedensglocke” ihre, im Ersten Weltkrieg eingeschmolzene, Vorgängerin.</p>",
                     "source": "<p>Kirchengemeinde Detmold-Ost: <em>Die Erlöserkirche am Markt in Detmold</em>, Flyer.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",
-                    "audio-title": "Improvisation über ein Thema von Gottfried Vierling",
-                    "audio-composer": "Original: Gottfried Vierling, Improvisation: ###",
-                    "audio-label": "###"
+                    "textAudio": "URL",
+                    "audioFile": "URL",
+                    "audioTitle": "Improvisation über ein Thema von Gottfried Vierling",
+                    "audioComposer": "Original: Gottfried Vierling, Improvisation: ###",
+                    "audioLabel": "###"
                 },
                 {
                     "title": "Marktplatz",
@@ -567,11 +541,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Neben dem geschäftigen Alltagstreiben</b> gibt es am Marktplatz viel Geschichtliches zu entdecken. Lassen Sie Ihren Blick schweifen auf das schöne Eckhaus, das die Lange Straße von der Schülerstraße trennt. Viele bekannte Persönlichkeiten haben in diesem Haus gewohnt. Christian Dietrich Grabbe (1801-1836), ein bedeutender Dramatiker des deutschen Frührealismus, residierte hier. Ebenso Malwida von Meysenbug (1816-1903), die ebenfalls eine Schriftstellerin war und sich für die Rechte der Frauen einsetzte. Auch Johannes Brahms (1833-1897), der berühmte Komponist und Pianist, wählte dieses Haus als seinen Wohnort.</p>",
                     "source": "<p>Arnold Ebert: <em>Detmold - eine wunderschöne Stadt</em>, Detmold 1987.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*der Marktplatz hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*der Marktplatz hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Palais",
@@ -580,11 +554,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Musik fehlt noch*/
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Musik fehlt noch*/
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Palaisgarten",
@@ -593,11 +567,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Der Palaisgarten</b> – ein englischer Landschaftsgarten aus dem 18. Jahrhundert. Hier können Sie mit etwas Glück Musik hören, aber auch viele weitere Klänge genießen. Z.B. das Vogelgezwitscher, die Wasserspiele, das Rauschen des Windes in den Bäumen oder aber die musizierenden Studierenden der Hochschule für Musik. Schließen Sie gerne die Augen und lauschen Sie für einen Moment… Was hören Sie? Das sanfte Plätschern des Schwanenteiches im oberen Bereich des Gartens, das leise Ächzen eines Mammutbaumes oder eher virtuose Stücke von Liszt und Chopin…?</p>",
                     "source": "<p>Thomas Dann: <em>Das Neue Palais in Detmold</em>, Heft 16, Verlag Lippische Kulturlandschaften, 1. Auflage 2010.</p> <p>Peter Schütze: <em>Also um eins, auf der langen Straße</em> Wartberg Verlag 2006.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Der Palaisgarten hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Der Palaisgarten hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Haus Münsterberg",
@@ -606,11 +580,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Das Wohnhaus der jüdischen Familie Münsterberg</b>war 1917-1942 Sitz des Musik-Konservatoriums. Danach wurde es unter NS-Heimatschutz gestellt und an das Rote-Kreuz verkauft. Heute befinden sich dort die Vereine „Literaturbüro“ und „Gesellschaft für Christlich-Jüdische Zusammenarbeit in Lippe“. Das Literaturbüro organisiert seit 2000 das Literatur- und Musikfestival „Wege durch das Land“. Sie können auf der Veranstaltung bekannte Künstlerinnen und Künstler aus den Bereichen Schauspiel, Musik und Literatur erleben.</p>",
                     "source": "<p>Marlen Dettmer et al.: <em>Haus Münsterberg. Lippische Kulturlandschaften</em>, Detmold 2017.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "",/*Das Literaturbüro hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label":""
+                    "textAudio": "URL",
+                    "audioFile": "",/*Das Literaturbüro hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel":""
                 },
                 {
                     "title": "Martin Luther Kirch",
@@ -619,11 +593,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Der Bau der Martin-Luther-Kirche</b> geht auf die Gräfin Johannette Wilhelmine zurück, die im 18. Jahrhundert am lutherischen Glauben festhielt. Zunächst sollten Räumlichkeiten im Schloss zur Ausübung des lutherischen Glaubens dienen. 1733-41 wurde an heutiger Stelle eine kleine Kirche im barocken Stil erbaut, in welcher der lutherische Glaube weiterhin praktiziert wurde. Wegen der anwachsenden Gemeinde wurde die Barockkirche Ende des 19. Jahrhunderts abgerissen und durch einen neugotischen Bau ersetzt. Seit den 1870er Jahren ist der Chorgesang ein fester Bestandteil der Gemeinde.</p>",
                     "source": "<p>Ev.-lutherische Kirchengemeinde Detmold: <em>detmold-lutherisch: Glauben & Geschichte</em> und <em>Martin-Luther-Kantorei</em>, Flyer.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",
-                    "audio-title": "Die Glocken der Martin Luther Kirche",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",
+                    "audioTitle": "Die Glocken der Martin Luther Kirche",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Lortzing Haus",
@@ -632,11 +606,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>In diesem Haus lebte in den 1820er Jahren ein echter Großstadtlöwe.</b> Der gebürtige Berliner Albert Lortzing (1801-1851) kam aus einer kunstbegeisterten Familie, daher ist es kein Wunder, dass er Komponist, Schauspieler, Sänger und Kapellmeister wurde. Während seiner Kindheit war Lortzing mit seinen Eltern viel auf Reisen, was sich auch während seiner Zeit in Detmold kaum änderte. Als Angestellter des Detmolder Hoftheaters war er mit seinen Kollegen viel im Umland unterwegs. Dennoch war er künstlerisch sehr produktiv und seine Werke fanden großen Anklang.</p>",
                     "source": "<p>Irmlind Capelle: Art. Lortzing, Albert, Biographie, in: <em>MGG Online</em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: zuerst veröffentlicht 2004, online veröffentlicht 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/14876.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*der Bahnhof hat keine Musik */
-                    "audio-title": "Ouvertüre zu „Der Wildschütz“",
-                    "audio-composer": "Albert Lorzing",
-                    "audio-label": "###"
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*der Bahnhof hat keine Musik */
+                    "audioTitle": "Ouvertüre zu „Der Wildschütz“",
+                    "audioComposer": "Albert Lorzing",
+                    "audioLabel": "###"
                 }
             ]
         },
@@ -655,122 +629,100 @@ window.appData = {
                         "geometry": {
                             "type": "LineString",
                             "coordinates": [
-                                [8.87318730354309, 51.94000554928616],
-                                [8.872838616371155, 51.93914239048427],
-                                [8.872355818748474, 51.93791541969765],
-                                [8.87345552444458, 51.93772359912918],
-                                [8.873680830001831, 51.937746749930945],
-                                [8.873804211616516, 51.93778974424543],
-                                [8.873927593231201, 51.93785588926418],
-                                [8.873986601829529, 51.93794518488475],
-                                [8.874769806861877, 51.93784266026821],
-                                [8.874528408050537, 51.93712498139231],
-                                [8.875263333320618, 51.93694307939275],
-                                [8.87572467327118, 51.93685378177762],
-                                [8.875880241394043, 51.93680747924056],
-                                [8.875998258590698, 51.936741332676135],
-                                [8.877178430557251, 51.93701253297053],
-                                [8.878669738769531, 51.937396179367646],
-                                [8.878905773162842, 51.937366413816285],
-                                [8.879114985466003, 51.937296960786355],
-                                [8.878846764564514, 51.937111752180826],
-                                [8.878857493400574, 51.93702245490141],
-                                [8.878498077392578, 51.93663219063165],
-                                [8.87843906879425, 51.936546199742935],
-                                [8.87841761112213, 51.93647674544325],
-                                [8.87843906879425, 51.93639736896913],
-                                [8.87868583202362, 51.93611955020382],
-                                [8.879356384277344, 51.93612616495631],
-                                [8.87946367263794, 51.9362386155996],
-                                [8.879801630973816, 51.93609970594047],
-                                [8.880150318145752, 51.93594425890725],
-                                [8.88043999671936, 51.9358251927303],
-                                [8.880037665367126, 51.93554737042206],
-                                [8.879780173301697, 51.93533900256192],
-                                [8.879426121711731, 51.9350314101427],
-                                [8.8789701461792, 51.93520009011758],
-                                [8.878653645515442, 51.935173630555596],
-                                [8.878578543663025, 51.93502479522881],
-                                [8.878755569458008, 51.93498510572494],
-                                [8.87921690940857, 51.93493880125939],
-                                [8.879560232162476, 51.934826347358424],
-                                [8.880295157432556, 51.93455182635753],
-                                [8.880531191825867, 51.93445590898536],
-                                [8.880718946456907, 51.934373221431024],
-                                [8.881121277809143, 51.93426076611255],
-                                [8.880756497383118, 51.933721638171356],
-                                [8.880541920661926, 51.93347357099177],
-                                [8.880423903465271, 51.93338757404939],
-                                [8.880321979522705, 51.93332473002573],
-                                [8.88020396232605, 51.93329165418846],
-                                [8.880343437194824, 51.93308989105311],
-                                [8.879925012588501, 51.932987355341574],
-                                [8.880155682563782, 51.93259374833742],
-                                [8.87993037700653, 51.93235890553917],
-                                [8.880032300949097, 51.93230929070623],
-                                [8.88018786907196, 51.9321835995506],
-                                [8.880161046981812, 51.93204467733741],
-                                [8.880246877670288, 51.93181313935966],
-                                [8.880772590637207, 51.93156836934134],
-                                [8.881840109825134, 51.930979592747946],
-                                [8.881673812866211, 51.930761280362496],
-                                [8.881287574768066, 51.93091674535191],
-                                [8.880869150161743, 51.930463579943485],
-                                [8.881169557571411, 51.93035111482679],
-                                [8.8809335231781, 51.930076566446324],
-                                [8.880810141563416, 51.93007987426813],
-                                [8.880413174629211, 51.929613468986574],
-                                [8.880268335342405, 51.92968624176102],
-                                [8.880161046981812, 51.929795400701394],
-                                [8.880075216293335, 51.92969947316187],
-                                [8.87993037700653, 51.9296035454173],
-                                [8.879806995391846, 51.92963331611859],
-                                [8.879104256629944, 51.92927275851852],
-                                [8.878321051597595, 51.929348839721136],
-                                [8.87818157672882, 51.92915367463812],
-                                [8.877768516540527, 51.92948115454891],
-                                [8.877430558204649, 51.9296432396813],
-                                [8.877060413360594, 51.929666394652415],
-                                [8.87669563293457, 51.92971601240745],
-                                [8.87647032737732, 51.92978216932882],
-                                [8.876287937164307, 51.929960792529414],
-                                [8.876550793647766, 51.93019234006457],
-                                [8.876738548278809, 51.9301724931798],
-                                [8.876915574073792, 51.9302320338078],
-                                [8.876169919967651, 51.93045034876792],
-                                [8.875772953033447, 51.93058266034807],
-                                [8.875579833984375, 51.93066535488757],
-                                [8.875821232795715, 51.93099282376746],
-                                [8.8754403591156, 51.931128441492724],
-                                [8.877130150794983, 51.933046892234856],
-                                [8.877301812171936, 51.933013816192776],
-                                [8.877409100532532, 51.93317919615934],
-                                [8.877103328704832, 51.933328037608106],
-                                [8.87672245502472, 51.93351326183265],
-                                [8.876368403434753, 51.93368194751477],
-                                [8.876057267189026, 51.933857247649755],
-                                [8.875805139541626, 51.93400608684941],
-                                [8.875536918640137, 51.93420123082982],
-                                [8.87545645236969, 51.93445590898536],
-                                [8.875359892845154, 51.93476681282616],
-                                [8.875333070755005, 51.93505125487856],
-                                [8.875392079353333, 51.935368769458314],
-                                [8.875429630279541, 51.93565982251595],
-                                [8.87545645236969, 51.93591449239261],
-                                [8.874785900115967, 51.93605340262516],
-                                [8.87444794178009, 51.93613277970784],
-                                [8.87419044971466, 51.9362419229672],
-                                [8.874485492706299, 51.937045606065],
-                                [8.873782753944397, 51.93720435657915],
-                                [8.873777389526367, 51.93732011180827],
-                                [8.873557448387146, 51.93736972110076],
-                                [8.873616456985474, 51.93751193410184],
-                                [8.873101472854614, 51.937594615872],
-                                [8.872613310813904, 51.93787242550362],
-                                [8.872345089912415, 51.93791872694164],
-                                [8.872838616371155, 51.939145697637805],
-                                [8.873198032379149, 51.94000885637608]
 
+                                [8.878777027130127,51.93751524137557],
+                                [8.878669738769531,51.93738625751938],
+                                [8.878374695777893,51.93730357536526],
+                                [8.878165483474731,51.93735318467603],
+                                [8.878401517868042,51.93731018994318],
+                                [8.878857493400574,51.93711836678704],
+                                [8.878846764564514,51.93702245490141],
+                                [8.87844443321228,51.936572658495486],
+                                [8.878406882286072,51.936470130742435],
+                                [8.878428339958191,51.93640067632502],
+                                [8.87818694114685,51.93636429539679],
+                                [8.87844979763031,51.93638744690001],
+                                [8.87869656085968,51.9361162428272],
+                                [8.87894332408905,51.935901262824224],
+                                [8.879163265228271,51.935755737314516],
+                                [8.879345655441284,51.93569289660759],
+                                [8.879329562187195,51.93562344098701],
+                                [8.878919184207916,51.93515709332146],
+                                [8.878659009933472,51.935148824702104],
+                                [8.879093527793884,51.93504794742318],
+                                [8.87920618057251,51.934918956473844],
+                                [8.878535628318787,51.93389032307012],
+                                [8.877623677253723,51.93410531270822],
+                                [8.877248167991638,51.9342574585989],
+                                [8.876770734786987,51.934548518865356],
+                                [8.875515460968018,51.93419792331183],
+                                [8.875890970230103,51.933933321080154],
+                                [8.87671709060669,51.93350664669493],
+                                [8.877398371696472,51.93318911893795],
+                                [8.877274990081787,51.932980740126325],
+                                [8.877167701721191,51.93283189752556],
+                                [8.876540064811707,51.93216706121443],
+                                [8.875563740730286,51.93107551755113],
+                                [8.875767588615417,51.93100274702957],
+                                [8.876014351844788,51.93091674535191],
+                                [8.875735402107239,51.930843974572845],
+                                [8.875579833984375,51.93065543155089],
+                                [8.875778317451477,51.9305661214219],
+                                [8.87569785118103,51.93041727081194],
+                                [8.875488638877869,51.93014603065311],
+                                [8.87520432472229,51.93001371778562],
+                                [8.875826597213745,51.9300368725656],
+                                [8.876062631607056,51.9300831820897],
+                                [8.876314759254456,51.92998063950779],
+                                [8.876491785049438,51.92977886148508],
+                                [8.876754641532898,51.92970278101148],
+                                [8.877060413360594,51.92964985538854],
+                                [8.876765370368958,51.92930087549974],
+                                [8.87697458267212,51.92898331798206],
+                                [8.877671957015991,51.92912224967254],
+                                [8.87809842824936,51.928894004525375],
+                                [8.878189623355865,51.929145404912475],
+                                [8.87831836938858,51.92934222396951],
+                                [8.878739476203918,51.9296267004089],
+                                [8.878262042999268,51.92986486534341],
+                                [8.878020644187927,51.930053411686835],
+                                [8.878294229507445,51.93026511190034],
+                                [8.878380060195923,51.93035773042969],
+                                [8.878447115421295,51.93034119142062],
+                                [8.878522217273712,51.93036434603162],
+                                [8.878551721572876,51.93040403962271],
+                                [8.87859731912613,51.930394116228214],
+                                [8.878640234470367,51.93044373317869],
+                                [8.87832373380661,51.93056446752894],
+                                [8.878262042999268,51.930619045964235],
+                                [8.87834519147873,51.93067362433313],
+                                [8.879203498363495,51.93138975253939],
+                                [8.879844546318054,51.93191237006785],
+                                [8.880297839641571,51.93169406222021],
+                                [8.880359530448914,51.93174202388385],
+                                [8.880662620067596,51.931599792594064],
+                                [8.880327343940735,51.931755254678585],
+                                [8.880268335342405,51.93178667780044],
+                                [8.880163729190826,51.93203806198321],
+                                [8.880185186862944,51.93217698421687],
+                                [8.880034983158112,51.93230267539101],
+                                [8.879916965961456,51.93235559788535],
+                                [8.880150318145752,51.93259209451919],
+                                [8.879916965961456,51.93298900914523],
+                                [8.87969970703125,51.93297081730163],
+                                [8.879662156105042,51.933194080326444],
+                                [8.88020396232605,51.93329165418846],
+                                [8.880389034748077,51.933367728577736],
+                                [8.880539238452911,51.93347687856318],
+                                [8.880759179592133,51.93373982971056],
+                                [8.881113231182098,51.93424422854195],
+                                [8.880689442157745,51.93437156767836],
+                                [8.880552649497986,51.93443110273506],
+                                [8.880600929260254,51.934480715221945],
+                                [8.880523145198822,51.934479061473276],
+                                [8.880359530448914,51.93454686511915],
+                                [8.879482448101044,51.93485280712519],
+                                [8.879581689834595,51.9349669146906]
                             ]
                         }
                     }
@@ -796,11 +748,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Ludwig Altenbernd (1818-1890)</b> zog als junger Mann von seinem Geburtsort Augustdorf in die nahe gelegene Residenzstadt Detmold, wo er bis zu seinem Tod lebte. Dort arbeitete er als Fürstlich Lippischer Kammerkalkulator, heute würde man wohl Rechnungsbeamter sagen. Altenbernd muss äußert wissbegierig gewesen sein, denn er eignete sich umfassende Kenntnisse in neueren Sprachen und Arithmetik selbst an. Dabei beließ er es aber nicht! Neben seiner – vielleicht eher trockenen – Arbeit bei der fürstlichen Regierung schrieb er in seiner Freizeit Gedichte und Lieder. Hören Sie selbst…</p>",
                     "source": "<p>Ludwig Altenbernd: <em>Eine Auswahl an feinen Dichtungen zum 100. Geburtstag</em>, Detmold 1919; Und: https://www.lwl.org/literaturkommission/alex/index.php?id=00000003 href=\"https://www.lwl.org/literaturkommission/alex/index.php?id=00000003&letter=A&layout=2&author_id=00000277\">&letter=A&layout=2&author_id=00000277, aufgerufen am 11.09.2018</p>",
-                    "text-audio": "URL",
-                    "audio-file": "https://youtu.be/r_7sIGiqdrc?t=553",
-                    "audio-title": "Mein Lipperland",
-                    "audio-composer": "Ernst Schramm und Ludwig Altenbernd",
-                    "audio-label": "His Master's Voice"
+                    "textAudio": "URL",
+                    "audioFile": "https://youtu.be/r_7sIGiqdrc?t=553",
+                    "audioTitle": "Mein Lipperland",
+                    "audioComposer": "Ernst Schramm und Ludwig Altenbernd",
+                    "audioLabel": "His Master's Voice"
                 },
                 {
                     "title": "Palais",
@@ -809,11 +761,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Musik fehlt noch*/
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Musik fehlt noch*/
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Palaisgarten",
@@ -822,11 +774,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Der Palaisgarten</b> – ein englischer Landschaftsgarten aus dem 18. Jahrhundert. Hier können Sie mit etwas Glück Musik hören, aber auch viele weitere Klänge genießen. Z.B. das Vogelgezwitscher, die Wasserspiele, das Rauschen des Windes in den Bäumen oder aber die musizierenden Studierenden der Hochschule für Musik. Schließen Sie gerne die Augen und lauschen Sie für einen Moment… Was hören Sie? Das sanfte Plätschern des Schwanenteiches im oberen Bereich des Gartens, das leise Ächzen eines Mammutbaumes oder eher virtuose Stücke von Liszt und Chopin…?</p>",
                     "source": "<p>Thomas Dann: <em>Das Neue Palais in Detmold</em>, Heft 16, Verlag Lippische Kulturlandschaften, 1. Auflage 2010.</p> <p>Peter Schütze: <em>Also um eins, auf der langen Straße</em> Wartberg Verlag 2006.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Der Palaisgarten hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Der Palaisgarten hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Musikbibliothek",
@@ -835,11 +787,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Mehr als 19.000 Tonträger</b> und DVDs, über 60.000 Notenhefte und musikwissenschaftliche Literatur so weit das Auge reicht. Dürfen wir Ihnen vorstellen? …Sie befinden sich vor der Musikbibliothek des Musikwissenschaftlichen Seminars Detmold/Paderborn, die im September 2015 eingeweiht wurde. Seitdem steht die Musikbibliothek allen Interessierten offen, dicke Nachschlagewerke zu wälzen, jede Menge CDs anzuhören oder sich durch alle möglichen Noten zu schmökern. Schauen Sie doch zu den Öffnungszeiten mal rein. Aber pssst… immer schön leise sein!</p>",
                     "source": "<p>Andreas Klingenberg: <em>Der Neubau der Musikbibliothek</em>, http://www.hfm-detmold.de/studium/bibliothek/neubau/.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*Die Musikbib hat keine Musik, da ist es ja auch leise*/
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*Die Musikbib hat keine Musik, da ist es ja auch leise*/
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Haus Münsterberg",
@@ -848,11 +800,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Das Wohnhaus der jüdischen Familie Münsterberg</b>war 1917-1942 Sitz des Musik-Konservatoriums. Danach wurde es unter NS-Heimatschutz gestellt und an das Rote-Kreuz verkauft. Heute befinden sich dort die Vereine „Literaturbüro“ und „Gesellschaft für Christlich-Jüdische Zusammenarbeit in Lippe“. Das Literaturbüro organisiert seit 2000 das Literatur- und Musikfestival „Wege durch das Land“. Sie können auf der Veranstaltung bekannte Künstlerinnen und Künstler aus den Bereichen Schauspiel, Musik und Literatur erleben.</p>",
                     "source": "<p>Marlen Dettmer et al.: <em>Haus Münsterberg. Lippische Kulturlandschaften</em>, Detmold 2017.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "",/*Das Literaturbüro hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label":""
+                    "textAudio": "URL",
+                    "audioFile": "",/*Das Literaturbüro hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel":""
                 },
                 {
                     "title": "Martin Luther Kirch",
@@ -861,11 +813,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Der Bau der Martin-Luther-Kirche</b> geht auf die Gräfin Johannette Wilhelmine zurück, die im 18. Jahrhundert am lutherischen Glauben festhielt. Zunächst sollten Räumlichkeiten im Schloss zur Ausübung des lutherischen Glaubens dienen. 1733-41 wurde an heutiger Stelle eine kleine Kirche im barocken Stil erbaut, in welcher der lutherische Glaube weiterhin praktiziert wurde. Wegen der anwachsenden Gemeinde wurde die Barockkirche Ende des 19. Jahrhunderts abgerissen und durch einen neugotischen Bau ersetzt. Seit den 1870er Jahren ist der Chorgesang ein fester Bestandteil der Gemeinde.</p>",
                     "source": "<p>Ev.-lutherische Kirchengemeinde Detmold: <em>detmold-lutherisch: Glauben & Geschichte</em> und <em>Martin-Luther-Kantorei</em>, Flyer.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",
-                    "audio-title": "Die Glocken der Martin Luther Kirche",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",
+                    "audioTitle": "Die Glocken der Martin Luther Kirche",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Lortzing Haus",
@@ -874,11 +826,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>In diesem Haus lebte in den 1820er Jahren ein echter Großstadtlöwe.</b> Der gebürtige Berliner Albert Lortzing (1801-1851) kam aus einer kunstbegeisterten Familie, daher ist es kein Wunder, dass er Komponist, Schauspieler, Sänger und Kapellmeister wurde. Während seiner Kindheit war Lortzing mit seinen Eltern viel auf Reisen, was sich auch während seiner Zeit in Detmold kaum änderte. Als Angestellter des Detmolder Hoftheaters war er mit seinen Kollegen viel im Umland unterwegs. Dennoch war er künstlerisch sehr produktiv und seine Werke fanden großen Anklang.</p>",
                     "source": "<p>Irmlind Capelle: Art. Lortzing, Albert, Biographie, in: <em>MGG Online</em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: zuerst veröffentlicht 2004, online veröffentlicht 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/14876.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*der Bahnhof hat keine Musik */
-                    "audio-title": "Ouvertüre zu „Der Wildschütz“",
-                    "audio-composer": "Albert Lorzing",
-                    "audio-label": "###"
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*der Bahnhof hat keine Musik */
+                    "audioTitle": "Ouvertüre zu „Der Wildschütz“",
+                    "audioComposer": "Albert Lorzing",
+                    "audioLabel": "###"
                 },
                 {
                     "title": "Erlöserkirche",
@@ -887,11 +839,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Die Erlöserkirche</b> bekam als eine der Ersten in der Grafschaft Lippe eine Orgel. Den Kern der heutigen Orgel bilden 21 original spätbarocke Register des berühmten Orgelbauers Johann-Markus Oestreich. Das Instrument umfasst ca. 2500 Pfeifen. Aufgrund des spätbarocken Klangcharakters kann man Werke von der Romantik bis zur Moderne gut darstellen. Die tiefere der beiden Kirchenglocken, die sogenannte „Feuerglocke” aus der Renaissancezeit, ist die älteste erhaltene Glocke der Stadt. Die höhere ersetzt seit 2005 als „Friedensglocke” ihre, im Ersten Weltkrieg eingeschmolzene, Vorgängerin.</p>",
                     "source": "<p>Kirchengemeinde Detmold-Ost: <em>Die Erlöserkirche am Markt in Detmold</em>, Flyer.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",
-                    "audio-title": "Improvisation über ein Thema von Gottfried Vierling",
-                    "audio-composer": "Original: Gottfried Vierling, Improvisation: ###",
-                    "audio-label": "###"
+                    "textAudio": "URL",
+                    "audioFile": "URL",
+                    "audioTitle": "Improvisation über ein Thema von Gottfried Vierling",
+                    "audioComposer": "Original: Gottfried Vierling, Improvisation: ###",
+                    "audioLabel": "###"
                 },
                 {
                     "title": "Marktplatz",
@@ -900,11 +852,11 @@ window.appData = {
                     "img": "URL",
                     "text": "<p><b>Neben dem geschäftigen Alltagstreiben</b> gibt es am Marktplatz viel Geschichtliches zu entdecken. Lassen Sie Ihren Blick schweifen auf das schöne Eckhaus, das die Lange Straße von der Schülerstraße trennt. Viele bekannte Persönlichkeiten haben in diesem Haus gewohnt. Christian Dietrich Grabbe (1801-1836), ein bedeutender Dramatiker des deutschen Frührealismus, residierte hier. Ebenso Malwida von Meysenbug (1816-1903), die ebenfalls eine Schriftstellerin war und sich für die Rechte der Frauen einsetzte. Auch Johannes Brahms (1833-1897), der berühmte Komponist und Pianist, wählte dieses Haus als seinen Wohnort.</p>",
                     "source": "<p>Arnold Ebert: <em>Detmold - eine wunderschöne Stadt</em>, Detmold 1987.</p>",
-                    "text-audio": "URL",
-                    "audio-file": "URL",/*der Marktplatz hat keine Musik */
-                    "audio-title": "",
-                    "audio-composer": "",
-                    "audio-label": ""
+                    "textAudio": "URL",
+                    "audioFile": "URL",/*der Marktplatz hat keine Musik */
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 }
             ]
         }
