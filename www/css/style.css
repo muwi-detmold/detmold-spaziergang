@@ -8,14 +8,9 @@ div.background {
     -webkit-touch-callout: none;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
-    background-color:rgb(162,219,255);
-    background-image: url("../img/SchlossBackground_600.png");
-    background-repeat: no-repeat;
-    background-position: center bottom;
     background-size: 100% auto;
+    background: rgb(162, 219, 255) url("../img/SchlossBackground_600.png") no-repeat fixed center bottom;
 
-    background-attachment:fixed;
-    
     font-size:12px;
     height:100%;
     margin:0px;

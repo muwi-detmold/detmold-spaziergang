@@ -63,7 +63,7 @@
 
             page.querySelector('.map-button').onclick = function() {
                 bringPageTop('route-map-template', {data:{route: page.data.route}});
-            };
+            }
 
         }
         else if (page.matches('#station-page')) {
@@ -71,6 +71,11 @@
 
             let route = getRoute(page.data.route);
             let station = route.stations[page.data.station];
+
+            page.querySelector('.next-station-button').onclick = function() {
+                let nextStation = (route.stations.length > page.data.station + 1?page.data.station + 1:0);
+                bringPageTop('station-template', {data:{route: page.data.route, station: nextStation}});
+            }
 
             page.querySelector('.station-title-span').innerHTML = station.title;
             page.querySelector('.station-description').innerHTML = station.text;
@@ -99,15 +104,65 @@
             page.querySelector('.ear-audio').ontimeupdate = function() {
                 let time = "";
                 if(this.currentTime > 0) {
-                    time = "0:" + (Math.floor(this.duration) - Math.floor(this.currentTime));
+                    let sec = (Math.floor(this.duration) - Math.floor(this.currentTime))
+                    time = "0:" + (sec < 10?"0":"") + sec;
                 }
                 page.querySelector('.ear-time').innerHTML = time;
+            }
+
+            page.querySelector('.ear-audio').onended = function() {
+                page.querySelector('.ear-button').setAttribute("style", "background-image: url('img/Ear.png')");
+                page.querySelector('.ear-button').onclick = playVoiceFn;
+                page.querySelector('.ear-time').innerHTML = "";
             }
 
 
             if(station.audioFile != null) {
 
                 page.querySelector('.notes-text-button').setAttribute("style", "visibility: visible");
+
+                console.log(page.querySelector('.audio-player'));
+
+
+                page.querySelector('.audio-player').onloadedmetadata = function() {
+                    let min = Math.floor(this.duration / 60.0);
+                    let sec = (min > 0?Math.round((this.duration / 60.0) % min * 60.0):Math.round((this.duration / 60.0) * 60.0));
+                    page.querySelector('.station-audio-player-time-total').innerHTML = min + ":" + (sec < 10?"0":"") + sec;
+                    page.querySelector('.station-audio-player-time-current').innerHTML = "0:00";
+                }
+
+                page.querySelector('.audio-player').ontimeupdate = function() {
+
+                    let time = "0:00";
+                    let percent = 0;
+                    if(this.currentTime > 0) {
+                        let min = Math.floor(this.currentTime / 60.0);
+                        let sec = (min > 0?Math.round((this.currentTime / 60.0) % min * 60.0):Math.round((this.currentTime / 60.0) * 60.0));
+                        time = min + ":" + (sec < 10?"0":"") + sec;
+
+                        percent = this.currentTime / this.duration * 100.0;
+                    }
+
+
+                    page.querySelector('.station-audio-player-time-current').innerHTML = time;
+                    page.querySelector('.station-audio-player-slider-foreground').setAttribute("style", "width: " + percent + "%;");
+                }
+                page.querySelector('.audio-player').src = station.audioFile;
+
+                let stopAudioFn = null;
+                let playAudioFn = function() {
+                    page.querySelector('.station-audio-button').setAttribute("style", "background-image: url('img/Pause.png')");
+                    page.querySelector('.audio-player').play();
+                    page.querySelector('.station-audio-button').onclick = stopAudioFn;
+                };
+
+                stopAudioFn = function() {
+                    page.querySelector('.station-audio-button').setAttribute("style", "background-image: url('img/Play.png')");
+                    page.querySelector('.audio-player').pause();
+                    page.querySelector('.station-audio-button').onclick = playAudioFn;
+                };
+
+                page.querySelector('.station-audio-button').onclick = playAudioFn;
 
                 let switchToText = null;
                 let switchToAudio = function () {
