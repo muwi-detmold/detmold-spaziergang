@@ -3,7 +3,7 @@ window.appData = {
         {
             "route": "tutti",
             "title": "Tutti",
-            "mapPreview": "routes/tutti/map.png",
+            "mapPreview": "routes/Tutti/map.png",
             "geomap": {
                 "id": "route",
                 "type": "line",
