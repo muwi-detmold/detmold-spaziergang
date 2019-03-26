@@ -230,6 +230,22 @@
             map.on('load', function () {
 
                 map.addLayer(route.geomap);
+
+                route.stations.forEach(function(station) {
+
+                    let title = station.title;
+                    let lat = station["geo-lat"];
+                    let lon = station["geo-lon"];
+
+                    // create a HTML element for each feature
+                    let el = document.createElement('div');
+                    el.className = 'marker';
+                    el.innerHTML = '<div class="marker-label">' + title + '</div>';
+
+                    new mapboxgl.Marker(el)
+                        .setLngLat([lon, lat])
+                        .addTo(map);
+                });
             });
         }
         else if (page.matches('#text-view-page')) {

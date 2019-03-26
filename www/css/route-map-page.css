@@ -4,3 +4,21 @@
     height: calc(100% - 90px);
     border-radius: 0 0 10px 10px;
 }
+
+.marker {
+    background-image: url('../img/StationBlue.png');
+    background-size: cover;
+    width: 23px;
+    height: 26px;
+}
+
+.marker-label {
+    color: rgb(25,56,113);
+    font-size: 1.4em;
+    margin-left: 30px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
