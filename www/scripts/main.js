@@ -85,14 +85,17 @@
 
             page.querySelector('.ear-audio').src = station.textAudio;
 
-            let stopVoiceFn = null;
+            page.data.stopVoiceFn = null;
             let playVoiceFn = function() {
+                if(page.querySelector('.audio-player').currentTime > 0)
+                    page.data.stopAudioFn();
+
                 page.querySelector('.ear-button').setAttribute("style", "background-image: url('img/NoEar.png')");
                 page.querySelector('.ear-audio').play();
-                page.querySelector('.ear-button').onclick = stopVoiceFn;
+                page.querySelector('.ear-button').onclick = page.data.stopVoiceFn;
             };
 
-            stopVoiceFn = function() {
+            page.data.stopVoiceFn = function() {
                 page.querySelector('.ear-button').setAttribute("style", "background-image: url('img/Ear.png')");
                 page.querySelector('.ear-audio').pause();
                 page.querySelector('.ear-audio').currentTime = 0;
@@ -121,9 +124,6 @@
 
                 page.querySelector('.notes-text-button').setAttribute("style", "visibility: visible");
 
-                console.log(page.querySelector('.audio-player'));
-
-
                 page.querySelector('.audio-player').onloadedmetadata = function() {
                     let min = Math.floor(this.duration / 60.0);
                     let sec = (min > 0?Math.round((this.duration / 60.0) % min * 60.0):Math.round((this.duration / 60.0) * 60.0));
@@ -149,14 +149,14 @@
                 }
                 page.querySelector('.audio-player').src = station.audioFile;
 
-                let stopAudioFn = null;
+                page.data.stopAudioFn = null;
                 let playAudioFn = function() {
                     page.querySelector('.station-audio-button').setAttribute("style", "background-image: url('img/Pause.png')");
                     page.querySelector('.audio-player').play();
-                    page.querySelector('.station-audio-button').onclick = stopAudioFn;
+                    page.querySelector('.station-audio-button').onclick = page.data.stopAudioFn;
                 };
 
-                stopAudioFn = function() {
+                page.data.stopAudioFn = function() {
                     page.querySelector('.station-audio-button').setAttribute("style", "background-image: url('img/Play.png')");
                     page.querySelector('.audio-player').pause();
                     page.querySelector('.station-audio-button').onclick = playAudioFn;
@@ -166,7 +166,10 @@
 
                 let switchToText = null;
                 let switchToAudio = function () {
-                    stopVoiceFn();
+
+                    if(page.querySelector('.ear-audio').currentTime > 0)
+                        page.data.stopVoiceFn();
+
                     page.querySelector('.notes-text-button').setAttribute("style", "visibility: visible; background-image: url('img/Text.png')");
                     page.querySelector('.ear-button').setAttribute("style", "display: none");
                     page.querySelector('.station-content').hidden = true;
@@ -198,6 +201,9 @@
             };
 
         }
+        else if (page.matches('#route-stations-page')) {
+
+        }
         else if (page.matches('#route-map-page')) {
 
             let route = getRoute(page.data.route);
@@ -226,6 +232,23 @@
                 map.addLayer(route.geomap);
             });
         }
+        else if (page.matches('#text-view-page')) {
+            let text = getText(page.data.text);
+            page.querySelector('.text-view-content').innerHTML = text.text;
+        }
+
+    });
+
+    document.addEventListener('hide', function(event) {
+        let page = event.target;
+
+        if (page.matches('#station-page')) {
+            if(page.querySelector('.ear-audio').currentTime > 0)
+                page.data.stopVoiceFn();
+
+            if(page.querySelector('.audio-player').currentTime > 0)
+                page.data.stopAudioFn();
+        }
     });
 
     /* ROUTES */
@@ -239,6 +262,17 @@
         });
 
         return route;
+    }
+
+    function getText(textId) {
+        let text = null;
+
+        window.appData.texts.forEach(function(value) {
+            if(value.textId === textId)
+                text = value;
+        });
+
+        return text;
     }
 
     function bringPageTop(page, options) {

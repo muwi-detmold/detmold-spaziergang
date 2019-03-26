@@ -860,6 +860,16 @@ window.appData = {
                 }
             ]
         }
+    ],
+    "texts": [
+        {
+            "textId": "info",
+            "text": "Info"
+        },
+        {
+            "textId": "credits",
+            "text": "Credits"
+        }
     ]
 };
 
