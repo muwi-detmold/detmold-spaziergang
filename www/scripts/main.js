@@ -57,6 +57,10 @@
 
             page.querySelector('.route-desc-map').setAttribute("style", "background-image: url('" + route.mapPreview + "')");
 
+            page.querySelector('.stations-button').onclick = function() {
+                bringPageTop('route-stations-template', {data:{route: page.data.route}});
+            }
+
             page.querySelector('.route-desc-map-play').onclick = function() {
                 bringPageTop('station-template', {data:{route: page.data.route, station: 0}});
             }
@@ -197,12 +201,41 @@
             }
 
             page.querySelector('.map-button').onclick = function() {
-                bringPageTop('route-map-template', {data:{route: page.data.route, station: 0}});
+                bringPageTop('route-map-template', {data:{route: page.data.route, station: page.data.station}});
             };
+
+            page.querySelector('.stations-button').onclick = function() {
+                bringPageTop('route-stations-template', {data:{route: page.data.route, station: page.data.station}});
+            }
 
         }
         else if (page.matches('#route-stations-page')) {
+            let route = getRoute(page.data.route);
 
+            page.querySelector('.stations-title-span').innerHTML = route.title;
+
+            let content = '';
+            route.stations.forEach(function(station, index) {
+
+                content += '<div class="station-entry station-entry-' + index + '">';
+                content += '<div class="station-line ' + (index == 0?'station-line-first':'') + (index == route.stations.length - 1?'station-line-last':'') + '">';
+                content += '<div class="station-num">Station ' + (index + 1) + '</div><div class="station-name">' + station.title + '</div>';
+                content += '</div>';
+
+                if(index < route.stations.length - 1)
+                    content += '<div class="station-distance">' + station.distanceNextStation + '</div>';
+
+                content += '</div>';
+            });
+
+            page.querySelector('.stations-content').innerHTML = content;
+
+            route.stations.forEach(function(station, index) {
+
+                page.querySelector('.station-entry-' + index).onclick = function() {
+                    bringPageTop('station-template', {data:{route: page.data.route, station: index}});
+                }
+            });
         }
         else if (page.matches('#route-map-page')) {
 
