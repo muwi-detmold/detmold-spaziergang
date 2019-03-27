@@ -762,7 +762,7 @@ window.appData = {
             "length": "3 km",
             "numStations": "9 Stationen",
             "duration": "20/30 min",
-            "description": "<p><b>Überall die selbe alte Leier.</b> Die App läuft und der Text lässt auf sich warten.</p><p>Hier könnte eine schöne Beschreibung der Route stehen. Ein paar Angaben zu dem, was einen auf dem Spaziergang erwartet.</p>",
+            "description": "<p><b>Herzlich Willkommen zum klingenden Spaziergang „Piccolo“!</b> Vertreten Sie sich kurz die Beine.</p><p> Los geht’s!</p>",
             "stations": [
                 {
                     "title": "Ludwig Altenbernd Haus",
@@ -887,7 +887,7 @@ window.appData = {
     "texts": [
         {
             "textId": "info",
-            "text": "Info"
+            "text": "<p style='font-size: 1.5em; font-weight: bold; margin-top: 0;'>Info</p><p>Wie klingt Detmold? Mit dieser Frage haben sich Studierende des Musikwissenschaftlichen Seminars Detmold/Paderborn im Rahmen eines Projekts auseinandergesetzt.</p><p>Egal ob bei historisch einmaligen Konzerten, durch die jahrzehntelange Musikpflege oder mit aktuellen Events: Die Stadt war und ist stets mit Musik verknüpft! Neben offensichtlichen Verbindungen der Stadt mit Musik – verkörpert etwa durch die Hochschule für Musik – werden dabei auch versteckte Orte ans Licht gebracht.</p><p>Mit unserer App haben Sie die Möglichkeit, bei einem geführten Spaziergang die Klangvielfalt Detmolds zu erleben.</p><p style='margin-top: 2em;'>Wir wünschen Ihnen gehörigen Spaß!</p>"
         },
         {
             "textId": "credits",
