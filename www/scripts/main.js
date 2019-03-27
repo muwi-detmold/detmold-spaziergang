@@ -264,7 +264,7 @@
 
                 map.addLayer(route.geomap);
 
-                route.stations.forEach(function(station) {
+                route.stations.forEach(function(station, index) {
 
                     let title = station.title;
                     let lat = station["geo-lat"];
@@ -272,7 +272,7 @@
 
                     // create a HTML element for each feature
                     let el = document.createElement('div');
-                    el.className = 'marker';
+                    el.className = 'marker marker-' + (index + 1);
                     el.innerHTML = '<div class="marker-label">' + title + '</div>';
 
                     new mapboxgl.Marker(el)

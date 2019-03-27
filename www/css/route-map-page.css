@@ -12,6 +12,86 @@
     height: 26px;
 }
 
+.marker.marker-1 {
+    background-image: url('../img/01Station.png');
+    background-size: cover;
+}
+
+.marker.marker-2 {
+    background-image: url('../img/02Station.png');
+    background-size: cover;
+}
+
+.marker.marker-3 {
+    background-image: url('../img/03Station.png');
+    background-size: cover;
+}
+
+.marker.marker-4 {
+    background-image: url('../img/04Station.png');
+    background-size: cover;
+}
+
+.marker.marker-5 {
+    background-image: url('../img/05Station.png');
+    background-size: cover;
+}
+
+.marker.marker-6 {
+    background-image: url('../img/06Station.png');
+    background-size: cover;
+}
+
+.marker.marker-7 {
+    background-image: url('../img/07Station.png');
+    background-size: cover;
+}
+
+.marker.marker-8 {
+    background-image: url('../img/08Station.png');
+    background-size: cover;
+}
+
+.marker.marker-9 {
+    background-image: url('../img/09Station.png');
+    background-size: cover;
+}
+
+.marker.marker-10 {
+    background-image: url('../img/10Station.png');
+    background-size: cover;
+}
+
+.marker.marker-11 {
+    background-image: url('../img/11Station.png');
+    background-size: cover;
+}
+
+.marker.marker-12 {
+    background-image: url('../img/12Station.png');
+    background-size: cover;
+}
+
+.marker.marker-13 {
+    background-image: url('../img/13Station.png');
+    background-size: cover;
+}
+
+.marker.marker-14 {
+    background-image: url('../img/14Station.png');
+    background-size: cover;
+}
+
+.marker.marker-15 {
+    background-image: url('../img/15Station.png');
+    background-size: cover;
+}
+
+.marker.marker-16 {
+    background-image: url('../img/16Station.png');
+    background-size: cover;
+}
+
 .marker-label {
     color: rgb(25,56,113);
     font-size: 1.4em;
@@ -21,4 +101,6 @@
     display: inline-block;
     padding: 2px 5px;
     border-radius: 5px;
+    display: none;
 }
+
