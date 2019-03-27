@@ -153,6 +153,7 @@ window.appData = {
                     "title": "Bahnhof",
                     "geo-lat": 51.940479,
                     "geo-lon": 8.873282,
+                    "distanceNextStation": "300m",
                     "img": "routes/Tutti/Bahnhof.jpg",
                     "text": "<p><b>Der Detmolder Bahnhof</b> verfügt über ein in Nordrhein-Westfalen einzigartiges Empfangsgebäude. Heute lassen lediglich die Ornamente an der Sandsteinfassade die ursprüngliche Pracht des Empfangsgebäudes erahnen. Bis ins 20. Jahrhundert diente ein Teil, das sogenannte Fürstenzimmer, dem lippischen Fürsten als exklusiver Warte- und Empfangsbereich. Gegenüber dem ehemaligen Fürstenzimmer – an den Fahrradständern – wird seit einigen Jahren zu bestimmten Zeiten Musik abgespielt, wodurch sich die Gäste der Residenzstadt musikalisch begrüßt fühlen können. Und...? Hören Sie die Musik? Erkennen Sie das Stück?</p>",
                     "source": "<p>Strohmann, Dirk. <em>Das Empfangsgebäude des Detmolder Bahnhofs und sein Fürstenzimmer</em>. Münster 2009.</p>",
