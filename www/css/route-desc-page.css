@@ -2,10 +2,11 @@
     height: 200px;
     background-size: auto 100%;
     background: black url("") no-repeat center center;
+    text-align: center;
 }
 
 .route-desc-map-play {
-    width: 100%;
+    width: 90px;
     height: 90px;
     top: 55px;
     position: relative;

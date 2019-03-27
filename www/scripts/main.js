@@ -55,7 +55,7 @@
             page.querySelector('.route-desc-duration-span').innerHTML = route.duration;
             page.querySelector('.route-desc-description').innerHTML = route.description;
 
-            page.querySelector('.route-desc-map').setAttribute("style", "background-image: url('" + route.mapPreview + "')");
+            page.querySelector('.route-desc-map').setAttribute("style", "background-image: url('" + route.mapPreview + "'); background-size: cover;");
 
             page.querySelector('.stations-button').onclick = function() {
                 bringPageTop('route-stations-template', {data:{route: page.data.route}});
