@@ -613,7 +613,7 @@ window.appData = {
                     "audioLabel":""
                 },
                 {
-                    "title": "Martin Luther Kirch",
+                    "title": "Martin Luther Kirche",
                     "geo-lat": 51.934518,
                     "geo-lon": 8.880571,
                     "distanceNextStation": "160m",
@@ -835,7 +835,7 @@ window.appData = {
                     "audioLabel":""
                 },
                 {
-                    "title": "Martin Luther Kirch",
+                    "title": "Martin Luther Kirche",
                     "geo-lat": 51.934518,
                     "geo-lon": 8.880571,
                     "distanceNextStation": "160m",
