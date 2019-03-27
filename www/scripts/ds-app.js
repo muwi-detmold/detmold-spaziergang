@@ -140,7 +140,7 @@ window.appData = {
                     "line-cap": "round"
                 },
                 "paint": {
-                    "line-color": "#527cac",
+                    "line-color": "#011C58",
                     "line-width": 8
                 }
             },
@@ -491,7 +491,7 @@ window.appData = {
                     "line-cap": "round"
                 },
                 "paint": {
-                    "line-color": "#527cac",
+                    "line-color": "#011C58",
                     "line-width": 8
                 }
             },
@@ -755,7 +755,7 @@ window.appData = {
                     "line-cap": "round"
                 },
                 "paint": {
-                    "line-color": "#527cac",
+                    "line-color": "#011C58",
                     "line-width": 8
                 }
             },

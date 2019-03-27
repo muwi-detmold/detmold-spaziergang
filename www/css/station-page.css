@@ -88,15 +88,26 @@
 }
 
 .station-description {
-    padding: 30px;
+    padding: 0 30px;
+    font-size: 15pt;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.1em;
 }
 
 .station-description p:first-child {
     margin-top: 0;
 }
 
+.station-description p:first-child b:first-child {
+    font-size: 18pt;
+    font-family: 'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
 .station-quotes {
-    padding: 30px;
+    padding: 10px 30px 0 30px;
+    font-size: 15pt;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.1em;
 }
 
 .station-quotes p:first-child {
