@@ -87,6 +87,26 @@
     background-size: contain;
 }
 
+.station-audio-backward {
+    background-image: url('../img/Backward.png');
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-color: inherit;
+    background-size: contain;
+    margin-right: 3ex;
+}
+
+.station-audio-forward {
+    background-image: url('../img/Forward.png');
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-color: inherit;
+    background-size: contain;
+    margin-left: 3ex;
+}
+
 .station-description {
     padding: 0 30px;
     font-size: 15pt;

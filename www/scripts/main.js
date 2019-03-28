@@ -154,6 +154,7 @@
                     page.querySelector('.station-audio-player-time-current').innerHTML = time;
                     page.querySelector('.station-audio-player-slider-foreground').setAttribute("style", "width: " + percent + "%;");
                 }
+
                 page.querySelector('.audio-player').src = station.audioFile;
 
                 page.data.stopAudioFn = null;
@@ -169,7 +170,26 @@
                     page.querySelector('.station-audio-button').onclick = playAudioFn;
                 };
 
+
+                page.querySelector('.audio-player').onended = function() {
+                    page.querySelector('.audio-player').currentTime = 0;
+                    page.data.stopAudioFn();
+                }
+
                 page.querySelector('.station-audio-button').onclick = playAudioFn;
+
+                page.querySelector('.station-audio-backward').onclick = function() {
+                    let time = page.querySelector('.audio-player').currentTime;
+                    time = Math.max(0, time - 10);
+                    page.querySelector('.audio-player').currentTime = time;
+                };
+
+                page.querySelector('.station-audio-forward').onclick = function() {
+                    let time = page.querySelector('.audio-player').currentTime;
+                    time = Math.min(page.querySelector('.audio-player').duration, time + 10);
+                    page.querySelector('.audio-player').currentTime = time;
+                };
+
 
                 let switchToText = null;
                 let switchToAudio = function () {
@@ -244,10 +264,16 @@
 
             let route = getRoute(page.data.route);
 
+            let center = [8.8790541, 51.9352382];
+            if(typeof page.data.station !== 'undefined') {
+                let station = route.stations[page.data.station];
+                center = [station['geo-lon'], station['geo-lat']];
+            }
+
             let map = new mapboxgl.Map({
                 container: page.querySelector('.map'),
                 style: 'mapbox://styles/mapbox/streets-v11',
-                center: [8.8790541, 51.9352382],
+                center: center,
                 zoom: 15
             });
 
@@ -255,6 +281,8 @@
                 instance: map,
                 route: route
             };
+
+            page.data.map = map;
 
             map.addControl(new mapboxgl.GeolocateControl({
                 positionOptions: {
@@ -304,6 +332,20 @@
 
             if(page.querySelector('.audio-player').currentTime > 0)
                 page.data.stopAudioFn();
+        }
+    });
+
+    document.addEventListener('show', function(event) {
+        let page = event.target;
+
+        if (page.matches('#route-map-page')) {
+
+            if(typeof page.data.station !== 'undefined') {
+                let route = getRoute(page.data.route);
+                let station = route.stations[page.data.station];
+
+                page.data.map.setCenter([station['geo-lon'], station['geo-lat']]);
+            }
         }
     });
 
@@ -363,10 +405,10 @@
                     return data.text == options.data.text;
                 });
 
-//            console.log("index to use: " + existingPageIndex);
-//            console.log(nav.pages[existingPageIndex]);
             if(existingPageIndex > -1)
-                nav.bringPageTop(existingPageIndex);
+                nav.bringPageTop(existingPageIndex).then(function(p) {
+                    p.data.station = options.data.station;
+                });
             else
                 nav.pushPage(page, options);
         }
