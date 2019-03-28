@@ -43,6 +43,9 @@
                 bringPageTop('text-view-template', {data:{text:'credits'}});
             };
 
+            page.querySelector('.start-audio').src = '../audio/Eingangsmusik_Lets-Go.mp3';
+            page.querySelector('.start-audio').play();
+
         }
         else if (page.matches('#route-desc-page')) {
 
@@ -291,7 +294,11 @@
     document.addEventListener('hide', function(event) {
         let page = event.target;
 
-        if (page.matches('#station-page')) {
+        if (page.matches('#start-page')) {
+            if(page.querySelector('.start-audio').currentTime > 0)
+                page.querySelector('.start-audio').pause();
+        }
+        else if (page.matches('#station-page')) {
             if(page.querySelector('.ear-audio').currentTime > 0)
                 page.data.stopVoiceFn();
 

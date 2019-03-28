@@ -8,7 +8,7 @@ div.background {
     -webkit-touch-callout: none;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
-    background-size: 100% auto;
+    background-size: 100% auto !important;
     background: rgb(162, 219, 255) url("../img/SchlossBackground_600.png") no-repeat fixed center bottom;
 
     font-size:12px;
@@ -116,7 +116,7 @@ div.background {
 }
 
 .page-nav {
-    height: 100px;
+    height: 90px;
 }
 
 .page-nav div {

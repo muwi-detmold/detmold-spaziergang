@@ -23,22 +23,21 @@
 
 .info-button {
     background: none;
-    border: 3px solid #193871;
-    border-radius: 25px;
-    color: #193871;
     width: 50px;
     height: 50px;
     margin: 20px 7px;
-    font-size: 1.7em;
-    font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 }
 
 #info-button {
     padding-top: 6px;
+    background: url("../img/Info.png") no-repeat center center;
+    background-size: contain;
 }
 
 #impressum-button {
     padding-top: -2px;
+    background: url("../img/Credits.png") no-repeat center center;
+    background-size: contain;
 }
 
 #info-buttons {

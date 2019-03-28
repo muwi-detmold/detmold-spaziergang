@@ -14,7 +14,7 @@
 }
 
 .route-desc-title {
-    padding: 10px 0 10px 30px;
+    padding: 0 0 10px 30px;
 }
 
 .route-desc-title-span {
@@ -76,4 +76,10 @@
 
 .route-desc-description {
     padding: 30px;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.1em;
+}
+
+.route-desc-description p:first-child span:first-child {
+    font-family: 'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 }

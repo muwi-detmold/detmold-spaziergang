@@ -101,6 +101,7 @@
 .station-description p:first-child b:first-child {
     font-size: 18pt;
     font-family: 'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
 }
 
 .station-quotes {
