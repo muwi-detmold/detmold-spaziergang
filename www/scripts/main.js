@@ -43,7 +43,7 @@
                 bringPageTop('text-view-template', {data:{text:'credits'}});
             };
 
-            page.querySelector('.start-audio').src = '../audio/Eingangsmusik_Lets-Go.mp3';
+            page.querySelector('.start-audio').src = 'https://detmold-spaziergang.upb.de/phone/audio/Eingangsmusik_Lets-Go.mp3';
             page.querySelector('.start-audio').play();
 
         }
