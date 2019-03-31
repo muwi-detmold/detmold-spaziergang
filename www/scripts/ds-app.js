@@ -200,7 +200,7 @@ window.appData = {
                     "text": "<p><b>Ludwig Altenbernd (1818-1890)</b> zog als junger Mann von seinem Geburtsort Augustdorf in die nahe gelegene Residenzstadt Detmold, wo er bis zu seinem Tod lebte. Dort arbeitete er als Fürstlich Lippischer Kammerkalkulator, heute würde man wohl Rechnungsbeamter sagen. Altenbernd muss äußert wissbegierig gewesen sein, denn er eignete sich umfassende Kenntnisse in neueren Sprachen und Arithmetik selbst an. Dabei beließ er es aber nicht! Neben seiner – vielleicht eher trockenen – Arbeit bei der fürstlichen Regierung schrieb er in seiner Freizeit Gedichte und Lieder. Hören Sie selbst…</p>",
                     "source": "<p>Ludwig Altenbernd: <em>Eine Auswahl an feinen Dichtungen zum 100. Geburtstag</em>, Detmold 1919; Und: https://www.lwl.org/literaturkommission/alex/index.php?id=00000003 href=\"https://www.lwl.org/literaturkommission/alex/index.php?id=00000003&letter=A&layout=2&author_id=00000277\">&letter=A&layout=2&author_id=00000277, aufgerufen am 11.09.2018</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Ludwig-Altenbernd-Haus.mp3",
-                    "audioFile": "https://youtu.be/r_7sIGiqdrc?t=553",
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/MeinLipperland.mp3",
                     "audioTitle": "Mein Lipperland",
                     "audioComposer": "Ernst Schramm und Ludwig Altenbernd",
                     "audioLabel": "His Master's Voice"
@@ -773,7 +773,7 @@ window.appData = {
                     "text": "<p><b>Ludwig Altenbernd (1818-1890)</b> zog als junger Mann von seinem Geburtsort Augustdorf in die nahe gelegene Residenzstadt Detmold, wo er bis zu seinem Tod lebte. Dort arbeitete er als Fürstlich Lippischer Kammerkalkulator, heute würde man wohl Rechnungsbeamter sagen. Altenbernd muss äußert wissbegierig gewesen sein, denn er eignete sich umfassende Kenntnisse in neueren Sprachen und Arithmetik selbst an. Dabei beließ er es aber nicht! Neben seiner – vielleicht eher trockenen – Arbeit bei der fürstlichen Regierung schrieb er in seiner Freizeit Gedichte und Lieder. Hören Sie selbst…</p>",
                     "source": "<p>Ludwig Altenbernd: <em>Eine Auswahl an feinen Dichtungen zum 100. Geburtstag</em>, Detmold 1919; Und: https://www.lwl.org/literaturkommission/alex/index.php?id=00000003 href=\"https://www.lwl.org/literaturkommission/alex/index.php?id=00000003&letter=A&layout=2&author_id=00000277\">&letter=A&layout=2&author_id=00000277, aufgerufen am 11.09.2018</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Ludwig-Altenbernd-Haus.mp3",
-                    "audioFile": "https://youtu.be/r_7sIGiqdrc?t=553",
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/MeinLipperland.mp3",
                     "audioTitle": "Mein Lipperland",
                     "audioComposer": "Ernst Schramm und Ludwig Altenbernd",
                     "audioLabel": "His Master's Voice"
