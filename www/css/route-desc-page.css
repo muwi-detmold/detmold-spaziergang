@@ -52,7 +52,7 @@
     background-size: 100% auto;
     width: 40px;
     height: 40px;
-    margin: 10px 20px 0 30px;
+    margin: 10px 10px 0 30px;
     display: inline-block;
 }
 
@@ -82,4 +82,17 @@
 
 .route-desc-description p:first-child span:first-child {
     font-family: 'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .route-desc-length {
+        width: 100%;
+        clear: both;
+    }
+
+    .route-desc-numStations {
+        width: 100%;
+        clear: both;
+    }
 }
