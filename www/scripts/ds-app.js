@@ -312,8 +312,8 @@ window.appData = {
                     "text": "<p><b>Der Bau der Martin-Luther-Kirche</b> geht auf die Gräfin Johannette Wilhelmine zurück, die im 18. Jahrhundert am lutherischen Glauben festhielt. Zunächst sollten Räumlichkeiten im Schloss zur Ausübung des lutherischen Glaubens dienen. 1733-41 wurde an heutiger Stelle eine kleine Kirche im barocken Stil erbaut, in welcher der lutherische Glaube weiterhin praktiziert wurde. Wegen der anwachsenden Gemeinde wurde die Barockkirche Ende des 19. Jahrhunderts abgerissen und durch einen neugotischen Bau ersetzt. Seit den 1870er Jahren ist der Chorgesang ein fester Bestandteil der Gemeinde.</p>",
                     "source": "<p>Ev.-lutherische Kirchengemeinde Detmold: <em>detmold-lutherisch: Glauben & Geschichte</em> und <em>Martin-Luther-Kantorei</em>, Flyer.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Martin-Luther-Kirche.mp3",
-                    "audioFile": "URL",
-                    "audioTitle": "Die Glocken der Martin Luther Kirche",
+                    "audioFile": null,
+                    "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
                 },
@@ -621,7 +621,7 @@ window.appData = {
                     "text": "<p><b>Der Bau der Martin-Luther-Kirche</b> geht auf die Gräfin Johannette Wilhelmine zurück, die im 18. Jahrhundert am lutherischen Glauben festhielt. Zunächst sollten Räumlichkeiten im Schloss zur Ausübung des lutherischen Glaubens dienen. 1733-41 wurde an heutiger Stelle eine kleine Kirche im barocken Stil erbaut, in welcher der lutherische Glaube weiterhin praktiziert wurde. Wegen der anwachsenden Gemeinde wurde die Barockkirche Ende des 19. Jahrhunderts abgerissen und durch einen neugotischen Bau ersetzt. Seit den 1870er Jahren ist der Chorgesang ein fester Bestandteil der Gemeinde.</p>",
                     "source": "<p>Ev.-lutherische Kirchengemeinde Detmold: <em>detmold-lutherisch: Glauben & Geschichte</em> und <em>Martin-Luther-Kantorei</em>, Flyer.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Martin-Luther-Kirche.mp3",
-                    "audioFile": "URL",
+                    "audioFile": null,
                     "audioTitle": "Die Glocken der Martin Luther Kirche",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -843,7 +843,7 @@ window.appData = {
                     "text": "<p><b>Der Bau der Martin-Luther-Kirche</b> geht auf die Gräfin Johannette Wilhelmine zurück, die im 18. Jahrhundert am lutherischen Glauben festhielt. Zunächst sollten Räumlichkeiten im Schloss zur Ausübung des lutherischen Glaubens dienen. 1733-41 wurde an heutiger Stelle eine kleine Kirche im barocken Stil erbaut, in welcher der lutherische Glaube weiterhin praktiziert wurde. Wegen der anwachsenden Gemeinde wurde die Barockkirche Ende des 19. Jahrhunderts abgerissen und durch einen neugotischen Bau ersetzt. Seit den 1870er Jahren ist der Chorgesang ein fester Bestandteil der Gemeinde.</p>",
                     "source": "<p>Ev.-lutherische Kirchengemeinde Detmold: <em>detmold-lutherisch: Glauben & Geschichte</em> und <em>Martin-Luther-Kantorei</em>, Flyer.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Martin-Luther-Kirche.mp3",
-                    "audioFile": "URL",
+                    "audioFile": null,
                     "audioTitle": "Die Glocken der Martin Luther Kirche",
                     "audioComposer": "",
                     "audioLabel": ""
