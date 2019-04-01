@@ -256,10 +256,10 @@ window.appData = {
                     "text": "<p><b>Was macht eine Büste von Johannes Brahms im beschaulichen Detmold?</b> Richtig gesehen, dieses Bildnis stellt den berühmten Komponisten und Pianisten dar. Brahms verbrachte in den späten 1850er Jahren mehrere Winter in der Residenzstadt und bereicherte das Detmolder Musikleben. Er unterrichtete die lippische Prinzessin Friederike, gab Konzerte und leitete den höfischen Chor. Darüber hinaus komponierte er viel, beispielsweise die zwei <em>Serenaden</em> op. 11 und op. 16.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, in: <em>MGG Online</em>, Kapitel III.1, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/47817.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Brahmsstatue.mp3",
-                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",/*der Bahnhof hat keine Musik */
-                    "audioTitle": "Serenade op. 16, Satz V, Rondo: Allegro",
-                    "audioComposer": "Johannes Brahms",
-                    "audioLabel": "Sony Music"
+                    "audioFile": null,
+                    "audioTitle": "",
+                    "audioComposer": "",
+                    "audioLabel": ""
                 },
                 {
                     "title": "Lortzing Haus",
@@ -367,10 +367,10 @@ window.appData = {
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Palais.mp3",
-                    "audioFile": "URL",/*Musik fehlt noch*/
-                    "audioTitle": "",
-                    "audioComposer": "",
-                    "audioLabel": ""
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",/*der Bahnhof hat keine Musik */
+                    "audioTitle": "Serenade op. 16, Satz V, Rondo: Allegro",
+                    "audioComposer": "Johannes Brahms",
+                    "audioLabel": "Sony Music"
                 }
             ]
         },
@@ -579,10 +579,10 @@ window.appData = {
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Palais.mp3",
-                    "audioFile": "URL",/*Musik fehlt noch*/
-                    "audioTitle": "",
-                    "audioComposer": "",
-                    "audioLabel": ""
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",/*der Bahnhof hat keine Musik */
+                    "audioTitle": "Serenade op. 16, Satz V, Rondo: Allegro",
+                    "audioComposer": "Johannes Brahms",
+                    "audioLabel": "Sony Music"
                 },
                 {
                     "title": "Palaisgarten",
@@ -787,10 +787,10 @@ window.appData = {
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Palais.mp3",
-                    "audioFile": "URL",/*Musik fehlt noch*/
-                    "audioTitle": "",
-                    "audioComposer": "",
-                    "audioLabel": ""
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",/*der Bahnhof hat keine Musik */
+                    "audioTitle": "Serenade op. 16, Satz V, Rondo: Allegro",
+                    "audioComposer": "Johannes Brahms",
+                    "audioLabel": "Sony Music"
                 },
                 {
                     "title": "Palaisgarten",
