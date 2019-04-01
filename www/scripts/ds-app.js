@@ -144,9 +144,9 @@ window.appData = {
                     "line-width": 8
                 }
             },
-            "length": "3 km",
+            "length": "3,7 km",
             "numStations": "16 Stationen",
-            "duration": "20/30 min",
+            "duration": "50–60 min",
             "description": "<p><span>Herzlich Willkommen zum klingenden Spaziergang „Tutti“!</span> Genießen Sie Detmolds Klangfülle in vollen Zügen.</p><p>Los geht’s!</p>",
             "stations": [
                 {
@@ -495,9 +495,9 @@ window.appData = {
                     "line-width": 8
                 }
             },
-            "length": "3 km",
+            "length": "2,7 km",
             "numStations": "10 Stationen",
-            "duration": "20/30 min",
+            "duration": "35–45 min",
             "description": "<p><span>Herzlich Willkommen zum klingenden Spaziergang „Mezzo“!</span> Wir laden Sie zum gemütlichen Flanieren ein.</p><p> Los geht’s!</p>",
             "stations": [
                 {
@@ -759,9 +759,9 @@ window.appData = {
                     "line-width": 8
                 }
             },
-            "length": "3 km",
+            "length": "2,9 km",
             "numStations": "9 Stationen",
-            "duration": "20/30 min",
+            "duration": "35–45 min",
             "description": "<p><span>Herzlich Willkommen zum klingenden Spaziergang „Piccolo“!</span> Vertreten Sie sich kurz die Beine.</p><p> Los geht’s!</p>",
             "stations": [
                 {
