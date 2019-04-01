@@ -186,7 +186,7 @@ window.appData = {
                     "text": "<p><b>Sind Sie zur richtigen Zeit am richtigen Ort?</b> Sie werden es hören. Zur vollen Stunde können Sie den Glocken der Kirche lauschen. Drei Bronzeglocken ergänzen seit den 60er-Jahren die beiden älteren tiefen Stahlglocken so, dass heute der berühmte „Westminsterschlag“ ertönen kann. Die Christuskirche selbst wurde zu Beginn des 20. Jahrhunderts errichtet. Die ursprüngliche Orgel wurde 1957 durch ein Instrument der Firma Paul Otto ersetzt. Die Akustik der neugotischen Christuskirche trägt den Klang der Orgel in besonderer Art und Weise.</p>",
                     "source": "Sünder-Gaß, Dr. Martina: <em>Die Christuskirche in Detmold: Ein Führer durch die evangelisch-reformierte Stadtkirche</em>, Detmold 2005.",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Christuskirche.mp3",
-                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Christuskirche_Glocken4Uhr.mp3", /*Aufnahme der GLocken*/
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Christuskirche_Glocken4Uhr.mp3",
                     "audioTitle": "Glockenspiel der Christuskirche",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -214,7 +214,7 @@ window.appData = {
                     "text": "<p><b>Richard Wagner.</b> Der Name des berühmten Komponisten ist mit dem dunkelsten Kapitel der Musikgeschichte Detmolds verknüpft: Die als „reichswichtig“ eingestuften Richard-Wagner-Festwochen machten 1935 bis 1944 Detmold zum „Vorort zu Bayreuth\" und Schauplatz nationalsozialistischer Kulturpropaganda. Die Wagner-Büste wurde am 14. Okt. 1941 als Geschenk des Gaues Westfalen-Nord unter schmetternden Fanfaren des sogenannten „Jungvolks“ und mit Musik aus Wagners Lohengrin im Rahmen eines öffentlichen NS-Festakts enthüllt. Der linientreue Bildhauer Georg Hengstenberg schuf sie; ursprünglich stand sie direkt vor dem Landestheater.</p>",
                     "source": "<p>Joachim Iffland: Vorwort. In: <em>Lippes Grüner Hügel. Die Richard-Wagner-Festwochen in Detmold 1935-1944</em>. Projekt Lippes Grüner Hügel (Hrsg.). Detmold 2012. S. 7-9.</p><p>Lippische Landsbibliothek: <em>Wagner in Detmold 1855-1945. Eine Ausstellung im Landestheater anlässlich der Ring-Inszenierung vom 3. Oktober bis 16. Dezember 2009</em>. Detmold 2009, http://www.llb-detmold.de/wir-ueber-uns/aus-unserer-arbeit/ausstellungen/ausstellung-2009-5.html</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Wagnerstatue.mp3",
-                    "audioFile": null,/*Die Wagner Statue hat keine Musik */
+                    "audioFile": null,
                     "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -228,10 +228,10 @@ window.appData = {
                     "text": "<p><b>Wir schreiben den 8. November 1825:</b> Das heutige Landestheater wird mit Mozarts Oper La clemenza di Tito feierlich eröffnet. Es wurde damals vom fürstlichen Hof der Residenzstadt gegründet und führte zeitgenössische Schauspiele, Opern und Singspiele auf. Noch heute wird auf zeitgenössische Werke gesetzt. So werden beispielsweise Opern von Strawinsky und Hindemith zur Aufführung gebracht. Im Rahmen des Internationalen Giselher-Klebe-Wettbewerbs können es aber auch Kompositionen von heutigen Nachwuchstalenten auf die Bühne schaffen.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, Kapitel IV., in: <em>MGG Online/em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/47816</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Landestheater.mp3",
-                    "audioFile": "URL",
-                    "audioTitle": "<em>La clemenza di Tito </em>, KV 621",
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Naxos-8.550185-18-HKI199275718_Mozart.mp3",
+                    "audioTitle": "La clemenza di Tito, KV 621",
                     "audioComposer": "W. A. Mozart",
-                    "audioLabel": "Teldec Classics Internat"
+                    "audioLabel": "Naxos"
                 },
                 {
                     "title": "Schloss",
@@ -242,7 +242,7 @@ window.appData = {
                     "text": "<p><b>Hier spielt die Musik!</b> Hinter den dicken Mauern des Fürstlichen Residenzschlosses erfreute man sich zu Beginn des 18. Jahrhunderts einer regen Musikpflege. Einerseits gestalteten Stadtmusiker das höfische Musikleben, andererseits kamen auch Musiker von auswärts an den Lippischen Hof um Konzerte zu geben, besonders zu festlichen Anlässen. Dementsprechend erlebten sowohl die Stadt als auch das Theater einen Aufschwung des kulturellen Lebens. Im 19. Jahrhundert bildeten sich größere Ensembles, die ausschließlich für die Hofmusik zuständig waren.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, in: <em>Die Musik in Geschichte und Gegenwart 2</em>, hrsg. von Ludwig Finscher, Kassel u.a. 1995, Sp. 1162-1169.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Schloss.mp3",
-                    "audioFile": null,/*Das Schloss hat keine Musik */
+                    "audioFile": null,
                     "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -256,10 +256,10 @@ window.appData = {
                     "text": "<p><b>Was macht eine Büste von Johannes Brahms im beschaulichen Detmold?</b> Richtig gesehen, dieses Bildnis stellt den berühmten Komponisten und Pianisten dar. Brahms verbrachte in den späten 1850er Jahren mehrere Winter in der Residenzstadt und bereicherte das Detmolder Musikleben. Er unterrichtete die lippische Prinzessin Friederike, gab Konzerte und leitete den höfischen Chor. Darüber hinaus komponierte er viel, beispielsweise die zwei <em>Serenaden</em> op. 11 und op. 16.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, in: <em>MGG Online</em>, Kapitel III.1, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/47817.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Brahmsstatue.mp3",
-                    "audioFile": null,
-                    "audioTitle": "",
-                    "audioComposer": "",
-                    "audioLabel": ""
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Naxos-BC95073-17-NLY331505322.mp3",
+                    "audioTitle": "Serenade op.16, Satz V, Rondo: Allegro",
+                    "audioComposer": "Johannes Brahms",
+                    "audioLabel": "Brilliant Classics"
                 },
                 {
                     "title": "Lortzing Haus",
@@ -270,10 +270,10 @@ window.appData = {
                     "text": "<p><b>In diesem Haus lebte in den 1820er Jahren ein echter Großstadtlöwe.</b> Der gebürtige Berliner Albert Lortzing (1801-1851) kam aus einer kunstbegeisterten Familie, daher ist es kein Wunder, dass er Komponist, Schauspieler, Sänger und Kapellmeister wurde. Während seiner Kindheit war Lortzing mit seinen Eltern viel auf Reisen, was sich auch während seiner Zeit in Detmold kaum änderte. Als Angestellter des Detmolder Hoftheaters war er mit seinen Kollegen viel im Umland unterwegs. Dennoch war er künstlerisch sehr produktiv und seine Werke fanden großen Anklang.</p>",
                     "source": "<p>Irmlind Capelle: Art. Lortzing, Albert, Biographie, in: <em>MGG Online</em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: zuerst veröffentlicht 2004, online veröffentlicht 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/14876.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Lortzinghaus.mp3",
-                    "audioFile": "URL",/*der Bahnhof hat keine Musik */
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Naxos-8.220310-06-HKI199000106_Wildschuetz.mp3",
                     "audioTitle": "Ouvertüre zu „Der Wildschütz“",
                     "audioComposer": "Albert Lorzing",
-                    "audioLabel": "Marco-Polo"
+                    "audioLabel": "Marco Polo"
                 },
                 {
                     "title": "Marktplatz",
@@ -284,7 +284,7 @@ window.appData = {
                     "text": "<p><b>Neben dem geschäftigen Alltagstreiben</b> gibt es am Marktplatz viel Geschichtliches zu entdecken. Lassen Sie Ihren Blick schweifen auf das schöne Eckhaus, das die Lange Straße von der Schülerstraße trennt. Viele bekannte Persönlichkeiten haben in diesem Haus gewohnt. Christian Dietrich Grabbe (1801-1836), ein bedeutender Dramatiker des deutschen Frührealismus, residierte hier. Ebenso Malwida von Meysenbug (1816-1903), die ebenfalls eine Schriftstellerin war und sich für die Rechte der Frauen einsetzte. Auch Johannes Brahms (1833-1897), der berühmte Komponist und Pianist, wählte dieses Haus als seinen Wohnort.</p>",
                     "source": "<p>Arnold Ebert: <em>Detmold - eine wunderschöne Stadt</em>, Detmold 1987.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Marktplatz.mp3",
-                    "audioFile": null,/*der Marktplatz hat keine Musik */
+                    "audioFile": null,
                     "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -298,10 +298,10 @@ window.appData = {
                     "text": "<p><b>Die Erlöserkirche</b> bekam als eine der Ersten in der Grafschaft Lippe eine Orgel. Den Kern der heutigen Orgel bilden 21 original spätbarocke Register des berühmten Orgelbauers Johann-Markus Oestreich. Das Instrument umfasst ca. 2500 Pfeifen. Aufgrund des spätbarocken Klangcharakters kann man Werke von der Romantik bis zur Moderne gut darstellen. Die tiefere der beiden Kirchenglocken, die sogenannte „Feuerglocke” aus der Renaissancezeit, ist die älteste erhaltene Glocke der Stadt. Die höhere ersetzt seit 2005 als „Friedensglocke” ihre, im Ersten Weltkrieg eingeschmolzene, Vorgängerin.</p>",
                     "source": "<p>Kirchengemeinde Detmold-Ost: <em>Die Erlöserkirche am Markt in Detmold</em>, Flyer.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Erloeserkirche.mp3",
-                    "audioFile": "URL",
-                    "audioTitle": "Improvisation über ein Thema von Gottfried Vierling",
-                    "audioComposer": "Original: Gottfried Vierling, Improvisation: ###",
-                    "audioLabel": "###"
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Erloeserkirche-Poeld.mp3",
+                    "audioTitle": "Andante quasi Allegro con 3 variazoni",
+                    "audioComposer": "Johann Gottfried Vierling",
+                    "audioLabel": "Johannes Pöld"
                 },
                 {
                     "title": "Martin Luther Kirche",
@@ -326,7 +326,7 @@ window.appData = {
                     "text": "<p><b>Das Wohnhaus der jüdischen Familie Münsterberg</b>war 1917-1942 Sitz des Musik-Konservatoriums. Danach wurde es unter NS-Heimatschutz gestellt und an das Rote-Kreuz verkauft. Heute befinden sich dort die Vereine „Literaturbüro“ und „Gesellschaft für Christlich-Jüdische Zusammenarbeit in Lippe“. Das Literaturbüro organisiert seit 2000 das Literatur- und Musikfestival „Wege durch das Land“. Sie können auf der Veranstaltung bekannte Künstlerinnen und Künstler aus den Bereichen Schauspiel, Musik und Literatur erleben.</p>",
                     "source": "<p>Marlen Dettmer et al.: <em>Haus Münsterberg. Lippische Kulturlandschaften</em>, Detmold 2017.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Haus-Muensterberg.mp3",
-                    "audioFile": null,/*Das Literaturbüro hat keine Musik */
+                    "audioFile": null,
                     "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel":""
@@ -340,7 +340,7 @@ window.appData = {
                     "text": "<p><b>Mehr als 19.000 Tonträger</b> und DVDs, über 60.000 Notenhefte und musikwissenschaftliche Literatur so weit das Auge reicht. Dürfen wir Ihnen vorstellen? …Sie befinden sich vor der Musikbibliothek des Musikwissenschaftlichen Seminars Detmold/Paderborn, die im September 2015 eingeweiht wurde. Seitdem steht die Musikbibliothek allen Interessierten offen, dicke Nachschlagewerke zu wälzen, jede Menge CDs anzuhören oder sich durch alle möglichen Noten zu schmökern. Schauen Sie doch zu den Öffnungszeiten mal rein. Aber pssst… immer schön leise sein!</p>",
                     "source": "<p>Andreas Klingenberg: <em>Der Neubau der Musikbibliothek</em>, http://www.hfm-detmold.de/studium/bibliothek/neubau/.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Musikbibliothek.mp3",
-                    "audioFile": null,/*Die Musikbib hat keine Musik, da ist es ja auch leise*/
+                    "audioFile": null,
                     "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -354,7 +354,7 @@ window.appData = {
                     "text": "<p><b>Der Palaisgarten</b> – ein englischer Landschaftsgarten aus dem 18. Jahrhundert. Hier können Sie mit etwas Glück Musik hören, aber auch viele weitere Klänge genießen. Z.B. das Vogelgezwitscher, die Wasserspiele, das Rauschen des Windes in den Bäumen oder aber die musizierenden Studierenden der Hochschule für Musik. Schließen Sie gerne die Augen und lauschen Sie für einen Moment… Was hören Sie? Das sanfte Plätschern des Schwanenteiches im oberen Bereich des Gartens, das leise Ächzen eines Mammutbaumes oder eher virtuose Stücke von Liszt und Chopin…?</p>",
                     "source": "<p>Thomas Dann: <em>Das Neue Palais in Detmold</em>, Heft 16, Verlag Lippische Kulturlandschaften, 1. Auflage 2010.</p> <p>Peter Schütze: <em>Also um eins, auf der langen Straße</em> Wartberg Verlag 2006.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Palaisgarten.mp3",
-                    "audioFile": null,/*Der Palaisgarten hat keine Musik */
+                    "audioFile": null,
                     "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -367,10 +367,10 @@ window.appData = {
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Palais.mp3",
-                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",/*der Bahnhof hat keine Musik */
-                    "audioTitle": "Serenade op. 16, Satz V, Rondo: Allegro",
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",
+                    "audioTitle": "Abendständchen",
                     "audioComposer": "Johannes Brahms",
-                    "audioLabel": "Sony Music"
+                    "audioLabel": ""
                 }
             ]
         },
@@ -509,10 +509,10 @@ window.appData = {
                     "text": "<p><b>Wir schreiben den 8. November 1825:</b> Das heutige Landestheater wird mit Mozarts Oper La clemenza di Tito feierlich eröffnet. Es wurde damals vom fürstlichen Hof der Residenzstadt gegründet und führte zeitgenössische Schauspiele, Opern und Singspiele auf. Noch heute wird auf zeitgenössische Werke gesetzt. So werden beispielsweise Opern von Strawinsky und Hindemith zur Aufführung gebracht. Im Rahmen des Internationalen Giselher-Klebe-Wettbewerbs können es aber auch Kompositionen von heutigen Nachwuchstalenten auf die Bühne schaffen.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, Kapitel IV., in: <em>MGG Online/em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/47816</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Landestheater.mp3",
-                    "audioFile": "URL",
-                    "audioTitle": "<em>La clemenza di Tito</em>, KV 621",
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Naxos-8.550185-18-HKI199275718_Mozart.mp3",
+                    "audioTitle": "La clemenza di Tito, KV 621",
                     "audioComposer": "W. A. Mozart",
-                    "audioLabel": "Teldec Classics Internat"
+                    "audioLabel": "Naxos"
                 },
                 {
                     "title": "Wagner Statue",
@@ -523,7 +523,7 @@ window.appData = {
                     "text": "<p><b>Richard Wagner.</b> Der Name des berühmten Komponisten ist mit dem dunkelsten Kapitel der Musikgeschichte Detmolds verknüpft: Die als „reichswichtig“ eingestuften Richard-Wagner-Festwochen machten 1935 bis 1944 Detmold zum „Vorort zu Bayreuth\" und Schauplatz nationalsozialistischer Kulturpropaganda. Die Wagner-Büste wurde am 14. Okt. 1941 als Geschenk des Gaues Westfalen-Nord unter schmetternden Fanfaren des sogenannten „Jungvolks“ und mit Musik aus Wagners Lohengrin im Rahmen eines öffentlichen NS-Festakts enthüllt. Der linientreue Bildhauer Georg Hengstenberg schuf sie; ursprünglich stand sie direkt vor dem Landestheater.</p>",
                     "source": "<p>Joachim Iffland: Vorwort. In: <em>Lippes Grüner Hügel. Die Richard-Wagner-Festwochen in Detmold 1935-1944</em>. Projekt Lippes Grüner Hügel (Hrsg.). Detmold 2012. S. 7-9.</p><p>Lippische Landsbibliothek: <em>Wagner in Detmold 1855-1945. Eine Ausstellung im Landestheater anlässlich der Ring-Inszenierung vom 3. Oktober bis 16. Dezember 2009</em>. Detmold 2009, http://www.llb-detmold.de/wir-ueber-uns/aus-unserer-arbeit/ausstellungen/ausstellung-2009-5.html</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Wagnerstatue.mp3",
-                    "audioFile": null,/*Die Wagner Statue hat keine Musik */
+                    "audioFile": null,
                     "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -537,7 +537,7 @@ window.appData = {
                     "text": "<p><b>Hier spielt die Musik!</b> Hinter den dicken Mauern des Fürstlichen Residenzschlosses erfreute man sich zu Beginn des 18. Jahrhunderts einer regen Musikpflege. Einerseits gestalteten Stadtmusiker das höfische Musikleben, andererseits kamen auch Musiker von auswärts an den Lippischen Hof um Konzerte zu geben, besonders zu festlichen Anlässen. Dementsprechend erlebten sowohl die Stadt als auch das Theater einen Aufschwung des kulturellen Lebens. Im 19. Jahrhundert bildeten sich größere Ensembles, die ausschließlich für die Hofmusik zuständig waren.</p>",
                     "source": "<p>Irmlind Capelle: Art. Detmold, in: <em>Die Musik in Geschichte und Gegenwart 2</em>, hrsg. von Ludwig Finscher, Kassel u.a. 1995, Sp. 1162-1169.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Schloss.mp3",
-                    "audioFile": null,/*Das Schloss hat keine Musik */
+                    "audioFile": null,
                     "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
@@ -551,10 +551,10 @@ window.appData = {
                     "text": "<p><b>Die Erlöserkirche</b> bekam als eine der Ersten in der Grafschaft Lippe eine Orgel. Den Kern der heutigen Orgel bilden 21 original spätbarocke Register des berühmten Orgelbauers Johann-Markus Oestreich. Das Instrument umfasst ca. 2500 Pfeifen. Aufgrund des spätbarocken Klangcharakters kann man Werke von der Romantik bis zur Moderne gut darstellen. Die tiefere der beiden Kirchenglocken, die sogenannte „Feuerglocke” aus der Renaissancezeit, ist die älteste erhaltene Glocke der Stadt. Die höhere ersetzt seit 2005 als „Friedensglocke” ihre, im Ersten Weltkrieg eingeschmolzene, Vorgängerin.</p>",
                     "source": "<p>Kirchengemeinde Detmold-Ost: <em>Die Erlöserkirche am Markt in Detmold</em>, Flyer.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Erloeserkirche.mp3",
-                    "audioFile": "URL",
-                    "audioTitle": "Improvisation über ein Thema von Gottfried Vierling",
-                    "audioComposer": "Original: Gottfried Vierling, Improvisation: ###",
-                    "audioLabel": "###"
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Erloeserkirche-Poeld.mp3",
+                    "audioTitle": "Andante quasi Allegro con 3 variazoni",
+                    "audioComposer": "Johann Gottfried Vierling",
+                    "audioLabel": "Johannes Pöld"
                 },
                 {
                     "title": "Marktplatz",
@@ -579,10 +579,10 @@ window.appData = {
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Palais.mp3",
-                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",/*der Bahnhof hat keine Musik */
-                    "audioTitle": "Serenade op. 16, Satz V, Rondo: Allegro",
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",
+                    "audioTitle": "Abendständchen",
                     "audioComposer": "Johannes Brahms",
-                    "audioLabel": "Sony Music"
+                    "audioLabel": ""
                 },
                 {
                     "title": "Palaisgarten",
@@ -622,7 +622,7 @@ window.appData = {
                     "source": "<p>Ev.-lutherische Kirchengemeinde Detmold: <em>detmold-lutherisch: Glauben & Geschichte</em> und <em>Martin-Luther-Kantorei</em>, Flyer.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Martin-Luther-Kirche.mp3",
                     "audioFile": null,
-                    "audioTitle": "Die Glocken der Martin Luther Kirche",
+                    "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
                 },
@@ -634,10 +634,10 @@ window.appData = {
                     "text": "<p><b>In diesem Haus lebte in den 1820er Jahren ein echter Großstadtlöwe.</b> Der gebürtige Berliner Albert Lortzing (1801-1851) kam aus einer kunstbegeisterten Familie, daher ist es kein Wunder, dass er Komponist, Schauspieler, Sänger und Kapellmeister wurde. Während seiner Kindheit war Lortzing mit seinen Eltern viel auf Reisen, was sich auch während seiner Zeit in Detmold kaum änderte. Als Angestellter des Detmolder Hoftheaters war er mit seinen Kollegen viel im Umland unterwegs. Dennoch war er künstlerisch sehr produktiv und seine Werke fanden großen Anklang.</p>",
                     "source": "<p>Irmlind Capelle: Art. Lortzing, Albert, Biographie, in: <em>MGG Online</em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: zuerst veröffentlicht 2004, online veröffentlicht 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/14876.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Lortzinghaus.mp3",
-                    "audioFile": "URL",/*der Bahnhof hat keine Musik */
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Naxos-8.220310-06-HKI199000106_Wildschuetz.mp3",
                     "audioTitle": "Ouvertüre zu „Der Wildschütz“",
                     "audioComposer": "Albert Lorzing",
-                    "audioLabel": "Marco-Polo"
+                    "audioLabel": "Marco Polo"
                 }
             ]
         },
@@ -787,10 +787,10 @@ window.appData = {
                     "text": "<p><b>Das Neue Palais</b> sieht nicht nur geschichtsträchtig aus, sondern ist es auch. Graf Friedrich Adolf errichtete Anfang des 18. Jahrhunderts das Haus Favorite. Das ehemalige Lustschloss wurde 1845-75 zum Palais in seiner heutigen Form umgebaut. 8 Jahre später spielte Johannes Brahms im Palaisgebäude Klavier. 1946 wurde das Palais Heimat der Nordwestdeutschen Akademie (heute Hochschule für Musik) Detmold. Aufstrebende MusikerInnen stellen hier wichtige Weichen für ihre Karriere und tragen die Musik aus dem Palais von Detmold in die Welt.</p>",
                     "source": "<p>Müller-Dombois, Richard: Die Gründung der Nordwestdeutschen Musikakademie Detmold, Detmold 1977 (Beiträge zur westfälischen Musikgeschichte, Heft 13).</p><p>Peters, Gerhard: Das Fürstliche Palais in Detmold: Architektur und Geschichte 1700 bis 1950, Blomberg u. Bielefeld 1984 (Sonderveröffentlichungen des Naturwissenschaftlichen und Historischen Vereins für das Land Lippe, Bd. 34).</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Palais.mp3",
-                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",/*der Bahnhof hat keine Musik */
-                    "audioTitle": "Serenade op. 16, Satz V, Rondo: Allegro",
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Johannes-Brahms_Abendstaendchen-op-42.mp3",
+                    "audioTitle": "Abendständchen",
                     "audioComposer": "Johannes Brahms",
-                    "audioLabel": "Sony Music"
+                    "audioLabel": ""
                 },
                 {
                     "title": "Palaisgarten",
@@ -844,7 +844,7 @@ window.appData = {
                     "source": "<p>Ev.-lutherische Kirchengemeinde Detmold: <em>detmold-lutherisch: Glauben & Geschichte</em> und <em>Martin-Luther-Kantorei</em>, Flyer.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Martin-Luther-Kirche.mp3",
                     "audioFile": null,
-                    "audioTitle": "Die Glocken der Martin Luther Kirche",
+                    "audioTitle": "",
                     "audioComposer": "",
                     "audioLabel": ""
                 },
@@ -857,10 +857,10 @@ window.appData = {
                     "text": "<p><b>In diesem Haus lebte in den 1820er Jahren ein echter Großstadtlöwe.</b> Der gebürtige Berliner Albert Lortzing (1801-1851) kam aus einer kunstbegeisterten Familie, daher ist es kein Wunder, dass er Komponist, Schauspieler, Sänger und Kapellmeister wurde. Während seiner Kindheit war Lortzing mit seinen Eltern viel auf Reisen, was sich auch während seiner Zeit in Detmold kaum änderte. Als Angestellter des Detmolder Hoftheaters war er mit seinen Kollegen viel im Umland unterwegs. Dennoch war er künstlerisch sehr produktiv und seine Werke fanden großen Anklang.</p>",
                     "source": "<p>Irmlind Capelle: Art. Lortzing, Albert, Biographie, in: <em>MGG Online</em>, hrsg. von Laurenz Lütteken, Kassel, Stuttgart, New York: zuerst veröffentlicht 2004, online veröffentlicht 2016, https://ez-proxy.hfm-detmold.de:2088/mgg/stable/14876.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Lortzinghaus.mp3",
-                    "audioFile": "URL",/*der Bahnhof hat keine Musik */
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Naxos-8.220310-06-HKI199000106_Wildschuetz.mp3",
                     "audioTitle": "Ouvertüre zu „Der Wildschütz“",
                     "audioComposer": "Albert Lorzing",
-                    "audioLabel": "Marco-Polo"
+                    "audioLabel": "Marco Polo"
                 },
                 {
                     "title": "Erlöserkirche",
@@ -871,10 +871,10 @@ window.appData = {
                     "text": "<p><b>Die Erlöserkirche</b> bekam als eine der Ersten in der Grafschaft Lippe eine Orgel. Den Kern der heutigen Orgel bilden 21 original spätbarocke Register des berühmten Orgelbauers Johann-Markus Oestreich. Das Instrument umfasst ca. 2500 Pfeifen. Aufgrund des spätbarocken Klangcharakters kann man Werke von der Romantik bis zur Moderne gut darstellen. Die tiefere der beiden Kirchenglocken, die sogenannte „Feuerglocke” aus der Renaissancezeit, ist die älteste erhaltene Glocke der Stadt. Die höhere ersetzt seit 2005 als „Friedensglocke” ihre, im Ersten Weltkrieg eingeschmolzene, Vorgängerin.</p>",
                     "source": "<p>Kirchengemeinde Detmold-Ost: <em>Die Erlöserkirche am Markt in Detmold</em>, Flyer.</p>",
                     "textAudio": "https://detmold-spaziergang.upb.de/app-files/voices/Erloeserkirche.mp3",
-                    "audioFile": "URL",
-                    "audioTitle": "Improvisation über ein Thema von Gottfried Vierling",
-                    "audioComposer": "Original: Gottfried Vierling, Improvisation: ###",
-                    "audioLabel": "###"
+                    "audioFile": "https://detmold-spaziergang.upb.de/app-files/audio/Erloeserkirche-Poeld.mp3",
+                    "audioTitle": "Andante quasi Allegro con 3 variazoni",
+                    "audioComposer": "Johann Gottfried Vierling",
+                    "audioLabel": "Johannes Pöld"
                 },
                 {
                     "title": "Marktplatz",

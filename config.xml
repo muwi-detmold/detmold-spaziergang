@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" id="com.example.helloworld" version="1.0.0">
-  <name>Minimum Template</name>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" id="de.upb.detmoldspaziergang" version="1.0.0">
+  <name>Detmold Spaziergang</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
   <content src="index.html"/>
   <allow-navigation href="*"/>
   <allow-intent href="itms:*"/>
   <allow-intent href="itms-apps:*"/>
-  <preference name="Orientation" value="portrait"/>
   <preference name="loglevel" value="DEBUG"/>
   <preference name="AndroidLaunchMode" value="singleTop"/>
   <preference name="ErrorUrl" value=""/>
-  <preference name="Fullscreen" value="false"/>
-  <preference name="KeepRunning" value="true"/>
   <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="1000"/>
   <preference name="AllowInlineMediaPlayback" value="false"/>
   <preference name="BackupWebStorage" value="cloud"/>
   <preference name="FadeSplashScreenDuration" value="250"/>
@@ -30,7 +26,6 @@
     <param name="ios-package" value="CDVLocalStorage"/>
   </feature>
   <preference name="UIWebViewDecelerationSpeed" value="normal"/>
-  <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
   <platform name="ios">
     <icon src="/res/ios/icon/icon.png" width="57" height="57"/>
     <icon src="/res/ios/icon/icon@2x.png" width="114" height="114"/>
@@ -62,9 +57,10 @@
     <splash src="/res/ios/screen/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
     <config-file platform="ios" parent="CFBundleLocalizations" target="*-Info.plist">
       <array>
-        <string>en</string>
+        <string>de</string>
       </array>
     </config-file>
+    <preference name="orientation" value="portrait"/>
   </platform>
   <platform name="android">
     <icon src="/res/android/icon/ldpi.png" density="ldpi"/>
@@ -92,12 +88,21 @@
   </platform>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="f33dc1a1-c6e9-eb31-385a-a055e7e52afe"/>
-  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2"/>
+  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1"/>
   <preference name="AutoHideSplashScreen" value="true"/>
   <preference name="FadeSplashScreen" value="true"/>
   <preference name="ShowSplashScreenSpinner" value="false"/>
+  <preference name="EnableViewportScale" value="false"/>
   <access origin="*"/>
   <access origin="api.mapbox.com"/>
+  <access origin="events.mapbox.com"/>
+  <access origin="*.tiles.mapbox.co"/>
+  <access origin="ssl.gstatic.com"/>
+  <access origin="detmold-spaziergang.upb.de"/>
+  <preference name="KeepRunning" value="true"/>
+  <preference name="monaca:AndroidIsPackageNameSeparate" value="true"/>
   <preference name="DisallowOverscroll" value="true"/>
-  <preference name="EnableViewportScale" value="false"/>
+  <preference name="Orientation" value="portrait"/>
+  <preference name="SplashScreenDelay" value="1000"/>
+  <preference name="Fullscreen" value="false"/>
 </widget>
