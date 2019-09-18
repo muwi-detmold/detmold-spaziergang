@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/onsenui-core.min.css">
+        <link rel="stylesheet" href="/css/onsen-css-components.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/onsenui.min.js"></script>
+        <script>
+            if('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('serviceworker.js')
+                    .then(() => console.log("Service Worker Registered"))
+                    .catch(e => console.log(e));
+            }
+        </script>
+    </head>
+    <body>
+        <ons-navigator id="navigator" page="start-template"></ons-navigator>
+
+        <ons-template id="start-template">
+            <ons-page id="start-page">
+                <div class="background"></div>
+
+                <div class="content" style="text-align: center">
+
+                    <div id="start-logo"> </div>
+
+                    <ons-button id="tutti-button" class="routes-button">Tutti</ons-button>
+                    <ons-button id="mezzo-button" class="routes-button">Mezzo</ons-button>
+                    <ons-button id="piccolo-button" class="routes-button">Piccolo</ons-button>
+
+                    <div id="info-buttons">
+                        <ons-button id="info-button" class="info-button"> </ons-button>
+                        <ons-button id="impressum-button" class="info-button"> </ons-button>
+                    </div>
+                </div>
+                <audio class="start-audio"></audio>
+            </ons-page>
+        </ons-template>
+
+        <ons-template id="text-view-template">
+            <ons-page id="text-view-page">
+                <div class="background"></div>
+
+                <div class="content-app">
+                    <div class="navbar">
+                        <div class="navbar-left">
+                            &nbsp;
+                        </div>
+                        <div class="navbar-middle">
+                            <ons-button class="home-button"></ons-button>
+                        </div>
+                        <div class="navbar-right">
+                            &nbsp;
+                        </div>
+                    </div>
+
+                    <div class="text-view-content">
+
+                    </div>
+
+                </div>
+            </ons-page>
+        </ons-template>
+
+        <ons-template id="route-desc-template">
+            <ons-page id="route-desc-page">
+                <div class="background"></div>
+
+                <div class="content-app">
+                    <div class="navbar">
+                        <div class="navbar-left">
+                            <ons-button class="stations-button"></ons-button>
+                        </div>
+                        <div class="navbar-middle">
+                            <ons-button class="home-button"></ons-button>
+                        </div>
+                        <div class="navbar-right">
+                            &nbsp;
+                        </div>
+                    </div>
+
+                    <div class="route-desc-map">
+                        <ons-button class="route-desc-map-play"></ons-button>
+                    </div>
+                    <div class="page-nav">
+                        <div class="page-nav-left">
+                            &nbsp;
+                        </div>
+                        <div class="page-nav-middle">
+                            &nbsp;
+                        </div>
+                        <div class="page-nav-right">
+                            <ons-button class="map-button"></ons-button>
+                        </div>
+                    </div>
+                    <div class="route-desc-title">
+                        <span class="route-desc-title-span"></span>
+                    </div>
+                    <div class="route-desc-content">
+                        <div class="route-desc-length">
+                            <div class="route-desc-length-img">&nbsp;</div><span class="route-desc-length-span"></span>
+                        </div>
+                        <div class="route-desc-numStations">
+                            <div class="route-desc-numStations-img">&nbsp;</div><span class="route-desc-numStations-span"></span>
+                        </div>
+                        <div class="route-desc-duration">
+                            <div class="route-desc-duration-img">&nbsp;</div><span class="route-desc-duration-span"></span>
+                        </div>
+
+                        <div class="route-desc-description">
+
+                        </div>
+                    </div>
+                </div>
+            </ons-page>
+        </ons-template>
+
+        <ons-template id="route-stations-template">
+            <ons-page id="route-stations-page">
+                <div class="background"></div>
+
+                <div class="content-app">
+                    <div class="navbar">
+                        <div class="navbar-left">
+                            <ons-button class="back-button"></ons-button>
+                        </div>
+                        <div class="navbar-middle">
+                            <ons-button class="home-button"></ons-button>
+                        </div>
+                        <div class="navbar-right">
+                        </div>
+                    </div>
+
+                    <div class="stations-title">
+                        <span class="stations-title-span"></span>
+                    </div>
+                    <div class="stations-content">
+
+                    </div>
+                </div>
+            </ons-page>
+        </ons-template>
+
+        <ons-template id="route-map-template">
+            <ons-page id="route-map-page">
+                <div class="background"></div>
+                <div class="content-app">
+                    <div class="navbar">
+                        <div class="navbar-left">
+                            <ons-button class="back-button"></ons-button>
+                        </div>
+                        <div class="navbar-middle">
+                            <ons-button class="home-button"></ons-button>
+                        </div>
+                        <div class="navbar-right">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="map"></div>
+
+                </div>
+            </ons-page>
+        </ons-template>
+
+        <ons-template id="station-template">
+            <ons-page id="station-page">
+                <div class="background"></div>
+
+                <div class="content-app">
+                    <div class="navbar">
+                        <div class="navbar-left">
+                            <ons-button class="stations-button"></ons-button>
+                        </div>
+                        <div class="navbar-middle">
+                            <ons-button class="home-button"></ons-button>
+                        </div>
+                        <div class="navbar-right">
+                            <ons-button class="next-station-button"></ons-button>
+                        </div>
+                    </div>
+
+                    <div class="station-img">
+                    </div>
+                    <div class="page-nav">
+                        <div class="page-nav-left">
+                            <ons-button class="ear-button"></ons-button><span class="ear-time"></span><audio class="ear-audio"></audio>
+                        </div>
+                        <div class="page-nav-middle">
+                            <ons-button class="notes-text-button"></ons-button>
+                        </div>
+                        <div class="page-nav-right">
+                            <ons-button class="map-button"></ons-button>
+                        </div>
+                    </div>
+                    <div class="station-title">
+                        <span class="station-title-span"></span>
+                    </div>
+                    <div class="station-content">
+
+                        <div class="station-description">
+
+                        </div>
+                        <div class="station-quotes">
+
+                        </div>
+                    </div>
+                    <div class="station-audio">
+                        <span class="station-audio-composer"></span><br/>
+                        <span class="station-audio-title"></span><br/>
+                        <span class="station-audio-label"></span>
+                        <div class="station-audio-player">
+                            <div class="station-audio-player-time">
+                                <span class="station-audio-player-time-current"></span>
+                                <span class="station-audio-player-time-total"></span>
+                            </div>
+                            <div class="station-audio-player-slider">
+                                <div class="station-audio-player-slider-background"></div>
+                                <div class="station-audio-player-slider-foreground"></div>
+                            </div>
+                            <div class="station-audio-player-controls">
+                                <ons-button class="station-audio-backward"></ons-button>
+                                <ons-button class="station-audio-button"></ons-button>
+                                <ons-button class="station-audio-forward"></ons-button>
+                            </div>
+                            <audio class="audio-player"></audio>
+                        </div>
+                    </div>
+                </div>
+            </ons-page>
+        </ons-template>
+    </body>
+</html>

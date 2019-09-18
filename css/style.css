@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amaranth Regular'), local('Amaranth-Regular'), url(Amaranth.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+div.background {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    background-size: 100% auto !important;
+    background: rgb(162, 219, 255) url("../img/SchlossBackground_600.png") no-repeat fixed center bottom;
+
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    color: #ffffff;
+}
+
+.content-app {
+    border: 1px solid #527cac;
+    background-color: rgba(25,56,113, 0.85);
+    margin: 15px;
+    border-radius: 10px;
+    width: calc(100% - 30px);
+    height: calc(100% - 32px);
+    font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+ height: 90px;
+}
+
+.navbar div {
+    width: 33.33%;
+    float: left;
+    margin-top: 30px;
+}
+
+.navbar-left,.page-nav-left {
+    text-align: left;
+}
+
+.navbar-middle,.page-nav-middle {
+    text-align: center;
+}
+
+.navbar-right,.page-nav-right {
+    text-align: right;
+}
+
+.home-button {
+    background: url('../img/home.png') no-repeat;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    background-size: 100% auto;
+}
+
+.back-button {
+    background: url('../img/left.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 5px 0 0 30px;
+    background-size: 100% auto;
+}
+
+.stations-button {
+    background: url('../img/menu.png') no-repeat;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 5px 0 0 30px;
+    background-size: 100% auto;
+}
+
+.next-station-button {
+    background: url('../img/right.png') no-repeat;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 5px 30px 0 0;
+    background-size: 100% auto;
+}
+
+.ear-button {
+    background: url('../img/Ear.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 20px 0 20px 30px;
+    background-size: 100% auto;
+}
+
+.notes-text-button {
+    background: url('../img/Notes.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 20px auto;
+    background-size: 100% auto;
+    visibility: hidden;
+}
+
+.map-button {
+    background: url('../img/places.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 20px 30px 20px 0;
+    background-size: 100% auto;
+}
+
+.page-nav {
+    height: 90px;
+}
+
+.page-nav div {
+    width: 33.33%;
+    float: left;
+}
+
+@media only screen and (max-width: 500px) {
+    .page-nav {
+        height: 60px;
+    }
+
+    .ear-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notes-text-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .map-button {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/*********************** START PAGE *************************/
+#start-logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    width: 250px;
+    height: 100px;
+    margin: 40px auto 50px;
+}
+
+.routes-button {
+    background: none;
+    border: 3px solid #193871;
+    border-radius: 8px;
+    color: #193871;
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+    box-shadow: none;
+    text-transform: none;
+}
+
+.info-button {
+    background: none;
+    width: 50px;
+    height: 50px;
+    margin: 20px 7px;
+    box-shadow: none;
+}
+
+#info-button {
+    padding-top: 6px;
+    background: url("../img/Info.png") no-repeat center center;
+    background-size: contain;
+}
+
+#impressum-button {
+    padding-top: -2px;
+    background: url("../img/Credits.png") no-repeat center center;
+    background-size: contain;
+}
+
+#info-buttons {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
