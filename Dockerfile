@@ -1,15 +1,15 @@
 
-FROM node
+FROM nginx:alpine
 LABEL maintainer="Daniel Röwenstrunk for Muwi Detmold"
 
-WORKDIR /app
+RUN mkdir -p /usr/share/nginx/html
+WORKDIR /usr/share/nginx/html
 COPY . .
-RUN npm install \
-    && mv www phone \
-    && mkdir www \
-    && mv phone www/
 
-EXPOSE 8085
+# make all files belong to the nginx user
+RUN chown nginx:nginx /usr/share/nginx/html
+
+EXPOSE 80
 
 # start nginx and keep the process from backgrounding and the container from quitting
-CMD npm run serve
+CMD ["nginx", "-g", "daemon off;"]
